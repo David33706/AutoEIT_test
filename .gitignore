@@ -121,3 +121,5 @@ dmypy.json
 .idea
 
 .DS_Store
+
+data/audio
