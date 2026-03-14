@@ -1,0 +1,296 @@
+[
+  {
+    "start": 171.04,
+    "end": 174.14,
+    "text": "El libro está en la mesa.",
+    "no_speech_prob": 0.516,
+    "avg_logprob": -0.447
+  },
+  {
+    "start": 176.06,
+    "end": 177.42,
+    "text": "El carro no tiene pelo.",
+    "no_speech_prob": 0.516,
+    "avg_logprob": -0.447
+  },
+  {
+    "start": 179.36,
+    "end": 181.74,
+    "text": "El carro no tiene pelo.",
+    "no_speech_prob": 0.516,
+    "avg_logprob": -0.447
+  },
+  {
+    "start": 183.84,
+    "end": 185.36,
+    "text": "Él se ducha cada mañana.",
+    "no_speech_prob": 0.516,
+    "avg_logprob": -0.447
+  },
+  {
+    "start": 187.5,
+    "end": 189.78,
+    "text": "Él se ducha cada mañana.",
+    "no_speech_prob": 0.516,
+    "avg_logprob": -0.447
+  },
+  {
+    "start": 192.44,
+    "end": 194.64,
+    "text": "¿Qué dice usted que va a hacer hoy?",
+    "no_speech_prob": 0.516,
+    "avg_logprob": -0.447
+  },
+  {
+    "start": 196.52,
+    "end": 199.52,
+    "text": "¿Qué dice usted que va a hacer hoy?",
+    "no_speech_prob": 0.516,
+    "avg_logprob": -0.447
+  },
+  {
+    "start": 201.04,
+    "end": 208.6,
+    "text": "Dudo que sepa manejar muy bien.",
+    "no_speech_prob": 0.599,
+    "avg_logprob": -0.32
+  },
+  {
+    "start": 210.6,
+    "end": 219.02,
+    "text": "Las calles de esta ciudad son muy anchas.",
+    "no_speech_prob": 0.599,
+    "avg_logprob": -0.32
+  },
+  {
+    "start": 222.06,
+    "end": 229.96,
+    "text": "Puede que llueva mañana todo el día.",
+    "no_speech_prob": 0.599,
+    "avg_logprob": -0.32
+  },
+  {
+    "start": 231.04,
+    "end": 243.04,
+    "text": "Las casas son muy bonitas pero caras.",
+    "no_speech_prob": 0.464,
+    "avg_logprob": -0.226
+  },
+  {
+    "start": 243.04,
+    "end": 253.04,
+    "text": "Me gustan las películas que acaban bien.",
+    "no_speech_prob": 0.464,
+    "avg_logprob": -0.226
+  },
+  {
+    "start": 253.04,
+    "end": 260.04,
+    "text": "El chico con el que yo salgo es español.",
+    "no_speech_prob": 0.437,
+    "avg_logprob": -0.224
+  },
+  {
+    "start": 260.04,
+    "end": 266.04,
+    "text": "El chico que hago es español.",
+    "no_speech_prob": 0.437,
+    "avg_logprob": -0.224
+  },
+  {
+    "start": 266.04,
+    "end": 272.04,
+    "text": "Después de cenar, me fui a dormir tranquilo.",
+    "no_speech_prob": 0.437,
+    "avg_logprob": -0.224
+  },
+  {
+    "start": 272.04,
+    "end": 278.04,
+    "text": "Después de cenar, me fui a dormir tranquilo.",
+    "no_speech_prob": 0.437,
+    "avg_logprob": -0.224
+  },
+  {
+    "start": 278.04,
+    "end": 290.04,
+    "text": "Quiero una casa en la que vivan animales.",
+    "no_speech_prob": 0.362,
+    "avg_logprob": -0.441
+  },
+  {
+    "start": 290.04,
+    "end": 300.04,
+    "text": "A nosotros nos fascinan las fiestas grandiosas.",
+    "no_speech_prob": 0.451,
+    "avg_logprob": -0.31
+  },
+  {
+    "start": 300.04,
+    "end": 303.04,
+    "text": "A nosotros...",
+    "no_speech_prob": 0.451,
+    "avg_logprob": -0.31
+  },
+  {
+    "start": 303.04,
+    "end": 313.04,
+    "text": "Ella solo bebe cerveza y no come nada.",
+    "no_speech_prob": 0.451,
+    "avg_logprob": -0.31
+  },
+  {
+    "start": 313.04,
+    "end": 318.52,
+    "text": "Ella solo bebe cerveza y no come nada.",
+    "no_speech_prob": 0.135,
+    "avg_logprob": -0.898
+  },
+  {
+    "start": 326.12,
+    "end": 329.38,
+    "text": "Me gustaría...",
+    "no_speech_prob": 0.135,
+    "avg_logprob": -0.898
+  },
+  {
+    "start": 329.38,
+    "end": 346.56,
+    "text": "Cruza a la derecha y después siga recto.",
+    "no_speech_prob": 0.455,
+    "avg_logprob": -0.413
+  },
+  {
+    "start": 346.56,
+    "end": 360.34,
+    "text": "Ella ha terminado de pintar su apartamento.",
+    "no_speech_prob": 0.349,
+    "avg_logprob": -0.321
+  },
+  {
+    "start": 360.34,
+    "end": 365.46,
+    "text": "Me gustaría que empezara a hacer más calor pronto.",
+    "no_speech_prob": 0.349,
+    "avg_logprob": -0.321
+  },
+  {
+    "start": 376.56,
+    "end": 379.22,
+    "text": "El niño al que se le murió el gato está triste.",
+    "no_speech_prob": 0.304,
+    "avg_logprob": -0.419
+  },
+  {
+    "start": 382.04,
+    "end": 388.84,
+    "text": "El niño al que se murió el gato está triste.",
+    "no_speech_prob": 0.304,
+    "avg_logprob": -0.419
+  },
+  {
+    "start": 390.68,
+    "end": 393.38,
+    "text": "Una amiga mía cuida de los niños de mi vecino.",
+    "no_speech_prob": 0.304,
+    "avg_logprob": -0.419
+  },
+  {
+    "start": 394.96,
+    "end": 400.86,
+    "text": "Una amiga mía cuida de los niños.",
+    "no_speech_prob": 0.304,
+    "avg_logprob": -0.419
+  },
+  {
+    "start": 400.86,
+    "end": 425.86,
+    "text": "El gato que era negro.",
+    "no_speech_prob": 0.433,
+    "avg_logprob": -0.418
+  },
+  {
+    "start": 425.86,
+    "end": 441.58,
+    "text": "Después de poder salir, tiene que limpiar su cuarto.",
+    "no_speech_prob": 0.336,
+    "avg_logprob": -0.22
+  },
+  {
+    "start": 441.58,
+    "end": 458.14,
+    "text": "la cantidad de personas que fuman.",
+    "no_speech_prob": 0.529,
+    "avg_logprob": -0.397
+  },
+  {
+    "start": 458.14,
+    "end": 476.64,
+    "text": "Antes de llegar a casa, el ladrón policía era famoso.",
+    "no_speech_prob": 0.559,
+    "avg_logprob": -0.292
+  },
+  {
+    "start": 476.64,
+    "end": 492.64,
+    "text": "Le pedí a un amigo que me ayudara con la tarea.",
+    "no_speech_prob": 0.191,
+    "avg_logprob": -0.436
+  },
+  {
+    "start": 492.64,
+    "end": 500.52,
+    "text": "¿El examen no fue tan difícil como me habían dicho?",
+    "no_speech_prob": 0.322,
+    "avg_logprob": -0.352
+  },
+  {
+    "start": 502.92,
+    "end": 509.36,
+    "text": "¿El examen no fue tan difícil?",
+    "no_speech_prob": 0.322,
+    "avg_logprob": -0.352
+  },
+  {
+    "start": 512.36,
+    "end": 515.98,
+    "text": "¿Serías tan amable de darme el libro que está en la mesa?",
+    "no_speech_prob": 0.322,
+    "avg_logprob": -0.352
+  },
+  {
+    "start": 515.98,
+    "end": 525.94,
+    "text": "Amable que está el libro que está en la mesa.",
+    "no_speech_prob": 0.235,
+    "avg_logprob": -0.387
+  },
+  {
+    "start": 525.94,
+    "end": 531.0,
+    "text": "Hay mucha gente que no toma nada para el desayuno.",
+    "no_speech_prob": 0.235,
+    "avg_logprob": -0.387
+  },
+  {
+    "start": 533.26,
+    "end": 537.02,
+    "text": "Hay mucha gente que no toma nada para el desayuno.",
+    "no_speech_prob": 0.235,
+    "avg_logprob": -0.387
+  },
+  {
+    "start": 542.54,
+    "end": 545.42,
+    "text": "Este es el final del test de repetición. Gracias.",
+    "no_speech_prob": 0.235,
+    "avg_logprob": -0.387
+  },
+  {
+    "start": 545.98,
+    "end": 546.98,
+    "text": "Gracias.",
+    "no_speech_prob": 0.766,
+    "avg_logprob": -0.326
+  }
+]

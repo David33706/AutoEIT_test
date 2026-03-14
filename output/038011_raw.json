@@ -1,0 +1,268 @@
+[
+  {
+    "start": 150.0,
+    "end": 153.0,
+    "text": "Quiero cortarme el pelo.",
+    "no_speech_prob": 0.382,
+    "avg_logprob": -0.237
+  },
+  {
+    "start": 157.0,
+    "end": 160.0,
+    "text": "El libro está en la mesa.",
+    "no_speech_prob": 0.382,
+    "avg_logprob": -0.237
+  },
+  {
+    "start": 165.0,
+    "end": 168.0,
+    "text": "El carro no tiene pelo.",
+    "no_speech_prob": 0.382,
+    "avg_logprob": -0.237
+  },
+  {
+    "start": 173.0,
+    "end": 176.0,
+    "text": "Él se ducha cada mañana.",
+    "no_speech_prob": 0.382,
+    "avg_logprob": -0.237
+  },
+  {
+    "start": 180.0,
+    "end": 187.0,
+    "text": "¿Qué dice usted que va a hacer hoy?",
+    "no_speech_prob": 0.15,
+    "avg_logprob": -0.316
+  },
+  {
+    "start": 187.0,
+    "end": 191.0,
+    "text": "Todo lo que sepa manejar muy bien.",
+    "no_speech_prob": 0.15,
+    "avg_logprob": -0.316
+  },
+  {
+    "start": 191.0,
+    "end": 195.0,
+    "text": "Todo lo que sepa manejar bien.",
+    "no_speech_prob": 0.15,
+    "avg_logprob": -0.316
+  },
+  {
+    "start": 195.0,
+    "end": 200.0,
+    "text": "Las calles de esta ciudad son muy anchas.",
+    "no_speech_prob": 0.15,
+    "avg_logprob": -0.316
+  },
+  {
+    "start": 200.0,
+    "end": 207.0,
+    "text": "Las calles han salido muchas años.",
+    "no_speech_prob": 0.15,
+    "avg_logprob": -0.316
+  },
+  {
+    "start": 207.0,
+    "end": 217.0,
+    "text": "Puede que llueva mañana todo el día.",
+    "no_speech_prob": 0.259,
+    "avg_logprob": -0.24
+  },
+  {
+    "start": 217.0,
+    "end": 229.0,
+    "text": "Las casas son muy bonitas pero caras.",
+    "no_speech_prob": 0.259,
+    "avg_logprob": -0.24
+  },
+  {
+    "start": 229.0,
+    "end": 236.0,
+    "text": "Me gustan las películas que acaban bien.",
+    "no_speech_prob": 0.134,
+    "avg_logprob": -0.271
+  },
+  {
+    "start": 236.0,
+    "end": 239.0,
+    "text": "Me gustan las películas que acaban bien.",
+    "no_speech_prob": 0.134,
+    "avg_logprob": -0.271
+  },
+  {
+    "start": 239.0,
+    "end": 247.0,
+    "text": "El chico con el que yo salgo es español.",
+    "no_speech_prob": 0.134,
+    "avg_logprob": -0.271
+  },
+  {
+    "start": 247.0,
+    "end": 254.0,
+    "text": "El chico con el que yo salgo está bien.",
+    "no_speech_prob": 0.134,
+    "avg_logprob": -0.271
+  },
+  {
+    "start": 254.0,
+    "end": 267.0,
+    "text": "Después de cenar me fui a dormir tranquilo.",
+    "no_speech_prob": 0.229,
+    "avg_logprob": -0.472
+  },
+  {
+    "start": 267.0,
+    "end": 276.54,
+    "text": "Quiero una casa que viven a mis animales.",
+    "no_speech_prob": 0.089,
+    "avg_logprob": -0.477
+  },
+  {
+    "start": 276.54,
+    "end": 287.58,
+    "text": "malditas个 المصي노",
+    "no_speech_prob": 0.382,
+    "avg_logprob": -4.614
+  },
+  {
+    "start": 287.58,
+    "end": 298.58,
+    "text": "Ellas solo beben cerveza y no comen nada.",
+    "no_speech_prob": 0.221,
+    "avg_logprob": -0.329
+  },
+  {
+    "start": 298.58,
+    "end": 308.58,
+    "text": "Ellas solo beben cerveza y no comen nada.",
+    "no_speech_prob": 0.221,
+    "avg_logprob": -0.329
+  },
+  {
+    "start": 308.58,
+    "end": 312.58,
+    "text": "Me gustaría que el precio de las casas bajara.",
+    "no_speech_prob": 0.221,
+    "avg_logprob": -0.329
+  },
+  {
+    "start": 312.58,
+    "end": 317.66,
+    "text": "Me gustaría los precios de las caras para nada.",
+    "no_speech_prob": 0.083,
+    "avg_logprob": -0.454
+  },
+  {
+    "start": 326.54,
+    "end": 333.24,
+    "text": "Cruza a la derecha y siga derecho.",
+    "no_speech_prob": 0.083,
+    "avg_logprob": -0.454
+  },
+  {
+    "start": 333.24,
+    "end": 340.24,
+    "text": "Ella ha terminado de pintar su apartamento.",
+    "no_speech_prob": 0.266,
+    "avg_logprob": -0.27
+  },
+  {
+    "start": 340.24,
+    "end": 346.24,
+    "text": "Ella ha terminado los apartamento.",
+    "no_speech_prob": 0.266,
+    "avg_logprob": -0.27
+  },
+  {
+    "start": 346.24,
+    "end": 353.24,
+    "text": "Me gustaría que empezara a hacer más calor pronto.",
+    "no_speech_prob": 0.266,
+    "avg_logprob": -0.27
+  },
+  {
+    "start": 353.24,
+    "end": 358.24,
+    "text": "Me gustaría las hacer pronto.",
+    "no_speech_prob": 0.266,
+    "avg_logprob": -0.27
+  },
+  {
+    "start": 358.24,
+    "end": 371.56,
+    "text": "El niño al que se le murió el gato está triste.",
+    "no_speech_prob": 0.3,
+    "avg_logprob": -0.311
+  },
+  {
+    "start": 371.56,
+    "end": 386.8,
+    "text": "Una amiga bien cuidar a los niños a mi vecino.",
+    "no_speech_prob": 0.3,
+    "avg_logprob": -0.311
+  },
+  {
+    "start": 386.8,
+    "end": 411.4,
+    "text": "El gato era negro y el perro.",
+    "no_speech_prob": 0.229,
+    "avg_logprob": -0.273
+  },
+  {
+    "start": 411.4,
+    "end": 419.4,
+    "text": "Parece que salir fue de cuarto.",
+    "no_speech_prob": 0.41,
+    "avg_logprob": -0.389
+  },
+  {
+    "start": 427.4,
+    "end": 431.4,
+    "text": "La cantidad de las personas que fuman ha disminuido.",
+    "no_speech_prob": 0.41,
+    "avg_logprob": -0.389
+  },
+  {
+    "start": 441.4,
+    "end": 447.52,
+    "text": "Después de llegar a la casa, fui a la cena.",
+    "no_speech_prob": 0.194,
+    "avg_logprob": -0.328
+  },
+  {
+    "start": 458.7,
+    "end": 465.74,
+    "text": "Perdón, a la policía eran famoso.",
+    "no_speech_prob": 0.194,
+    "avg_logprob": -0.328
+  },
+  {
+    "start": 471.4,
+    "end": 478.4,
+    "text": "Le pedí a un amigo que ayudara con mi tarea.",
+    "no_speech_prob": 0.162,
+    "avg_logprob": -0.329
+  },
+  {
+    "start": 488.4,
+    "end": 491.4,
+    "text": "El examen no fue...",
+    "no_speech_prob": 0.162,
+    "avg_logprob": -0.329
+  },
+  {
+    "start": 501.4,
+    "end": 508.4,
+    "text": "Seria amable que lo estan",
+    "no_speech_prob": 0.164,
+    "avg_logprob": -0.437
+  },
+  {
+    "start": 518.4,
+    "end": 523.4,
+    "text": "Hay mucha gente que no tomara el desayuno",
+    "no_speech_prob": 0.164,
+    "avg_logprob": -0.437
+  }
+]

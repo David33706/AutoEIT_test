@@ -1,0 +1,242 @@
+[
+  {
+    "item": 1,
+    "target": "Quiero cortarme el pelo",
+    "transcription": "Quiero cortar el pelo.",
+    "similarity": 0.913,
+    "start": 723.52,
+    "end": 743.96
+  },
+  {
+    "item": 2,
+    "target": "El libro está en la mesa",
+    "transcription": "se han de poner a la mesa",
+    "similarity": 0.4,
+    "start": 1101.32,
+    "end": 1102.4
+  },
+  {
+    "item": 3,
+    "target": "El carro lo tiene Pedro",
+    "transcription": "Ellas Metro los Langi segreseros",
+    "similarity": 0.438,
+    "start": 881.32,
+    "end": 885.34
+  },
+  {
+    "item": 4,
+    "target": "El se ducha cada mañana",
+    "transcription": "El chico è spagnolo",
+    "similarity": 0.261,
+    "start": 837.72,
+    "end": 842.8
+  },
+  {
+    "item": 5,
+    "target": "Qué dice usted que va a hacer hoy",
+    "transcription": "En Bub Janet si no hundred, que esta en la mesa.....el libro....",
+    "similarity": 0.333,
+    "start": 1093.16,
+    "end": 1101.32
+  },
+  {
+    "item": 6,
+    "target": "Dudo que sepa manejar muy bien",
+    "transcription": "Saben que soy una respeto, así que 걸 conmigo.",
+    "similarity": 0.326,
+    "start": 994.74,
+    "end": 997.48
+  },
+  {
+    "item": 7,
+    "target": "Las calles de esta ciudad son muy anchas",
+    "transcription": "Ya sé lo de la situación aquí.",
+    "similarity": 0.35,
+    "start": 989.88,
+    "end": 992.98
+  },
+  {
+    "item": 8,
+    "target": "Puede que llueva mañana todo el día",
+    "transcription": "Así que volviendo aquí.",
+    "similarity": 0.314,
+    "start": 1000.64,
+    "end": 1001.98
+  },
+  {
+    "item": 9,
+    "target": "Las casas son muy bonitas pero caras",
+    "transcription": "Las casas son bonitas pero caras.",
+    "similarity": 0.889,
+    "start": 803.96,
+    "end": 825.72
+  },
+  {
+    "item": 10,
+    "target": "Me gustan las películas que acaban bien",
+    "transcription": "Me gusta las películas peca bien.",
+    "similarity": 0.795,
+    "start": 825.72,
+    "end": 837.72
+  },
+  {
+    "item": 11,
+    "target": "El chico con el que yo salgo es español",
+    "transcription": "Son cosas que no mecolates a mí.",
+    "similarity": 0.359,
+    "start": 992.98,
+    "end": 994.74
+  },
+  {
+    "item": 12,
+    "target": "Después de cenar me fui a dormir tranquilo",
+    "transcription": "Después llegar dormir",
+    "similarity": 0.429,
+    "start": 849.7,
+    "end": 854.5
+  },
+  {
+    "item": 13,
+    "target": "Quiero una casa en la que vivan mis animales",
+    "transcription": "está a mi animales",
+    "similarity": 0.364,
+    "start": 863.56,
+    "end": 866.18
+  },
+  {
+    "item": 14,
+    "target": "A nosotros nos fascinan las fiestas grandiosas",
+    "transcription": "A nosotras fascinabas a los nosotros",
+    "similarity": 0.522,
+    "start": 867.72,
+    "end": 880.22
+  },
+  {
+    "item": 15,
+    "target": "Ella sólo bebe cerveza y no come nada",
+    "transcription": "Ellas elps inconversi nos del do pi casam",
+    "similarity": 0.341,
+    "start": 890.52,
+    "end": 897.72
+  },
+  {
+    "item": 16,
+    "target": "Me gustaría que el precio de las casas bajara",
+    "transcription": "Me gustaría que los brazos me estaban cruzando a la derecha.",
+    "similarity": 0.492,
+    "start": 897.72,
+    "end": 921.5
+  },
+  {
+    "item": 17,
+    "target": "Cruza a la derecha y después sigue todo recto",
+    "transcription": "[no response detected]",
+    "similarity": 0,
+    "start": null,
+    "end": null
+  },
+  {
+    "item": 18,
+    "target": "Ella ha terminado de pintar su apartamento",
+    "transcription": "He terminado despacxy la cr Testament",
+    "similarity": 0.5,
+    "start": 921.5,
+    "end": 934.22
+  },
+  {
+    "item": 19,
+    "target": "Me gustaría que empezara a hacer más calor pronto",
+    "transcription": "Me gustaria hacer pingatasasonic visitas a pandemic",
+    "similarity": 0.373,
+    "start": 936.56,
+    "end": 943.92
+  },
+  {
+    "item": 20,
+    "target": "El niño al que se le murió el gato está triste",
+    "transcription": "El nino sirio es tan muy triste.",
+    "similarity": 0.478,
+    "start": 949.92,
+    "end": 967.5
+  },
+  {
+    "item": 21,
+    "target": "Una amiga mía cuida a los niños de mi vecino",
+    "transcription": "Una amiga picabon en la saritana.",
+    "similarity": 0.386,
+    "start": 967.5,
+    "end": 983.2
+  },
+  {
+    "item": 22,
+    "target": "El gato que era negro fue perseguido por el perro",
+    "transcription": "El cato tiene cin Chef de r, te hace muy frúcar.",
+    "similarity": 0.327,
+    "start": 983.2,
+    "end": 985.56
+  },
+  {
+    "item": 23,
+    "target": "Antes de poder salir él tiene que limpiar su cuarto",
+    "transcription": "Te ha ware mi Hol equal se heck skim.",
+    "similarity": 0.275,
+    "start": 1010.56,
+    "end": 1012.26
+  },
+  {
+    "item": 24,
+    "target": "La cantidad de personas que fuman ha disminuido",
+    "transcription": "La cantina layas recycling esa persona a mi casa Ah",
+    "similarity": 0.333,
+    "start": 1012.26,
+    "end": 1035.82
+  },
+  {
+    "item": 25,
+    "target": "Después de llegar a casa del trabajo tomé la cena",
+    "transcription": "ahora le voy a la cena",
+    "similarity": 0.286,
+    "start": 1035.82,
+    "end": 1039.78
+  },
+  {
+    "item": 26,
+    "target": "El ladrón al que atrapó la policía era famoso",
+    "transcription": "policía era famoso",
+    "similarity": 0.4,
+    "start": 1047.86,
+    "end": 1049.66
+  },
+  {
+    "item": 27,
+    "target": "Le pedí a un amigo que me ayudara con la tarea",
+    "transcription": "Ya sé qué cont hemen con la Pis.",
+    "similarity": 0.348,
+    "start": 988.7,
+    "end": 989.88
+  },
+  {
+    "item": 28,
+    "target": "El examen no fue tan difícil como me habían dicho",
+    "transcription": "Entonces la tarea esta no difícil, pero debe ser.",
+    "similarity": 0.347,
+    "start": 1079.66,
+    "end": 1086.98
+  },
+  {
+    "item": 29,
+    "target": "Serías tan amable de darme el libro que está en la mesa",
+    "transcription": "Las traen un seaswell tu se samg six xen.",
+    "similarity": 0.309,
+    "start": 1009.58,
+    "end": 1010.56
+  },
+  {
+    "item": 30,
+    "target": "Hay mucha gente que no toma nada para el desayuno",
+    "transcription": "hay muchos ejemplos",
+    "similarity": 0.286,
+    "start": 1108.84,
+    "end": 1109.96
+  }
+]

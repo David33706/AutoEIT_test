@@ -1,0 +1,242 @@
+[
+  {
+    "item": 1,
+    "target": "Quiero cortarme el pelo",
+    "transcription": "El carro no tiene pelo.",
+    "similarity": 0.435,
+    "start": 179.36,
+    "end": 181.74
+  },
+  {
+    "item": 2,
+    "target": "El libro está en la mesa",
+    "transcription": "El libro está en la mesa.",
+    "similarity": 1.0,
+    "start": 171.04,
+    "end": 174.14
+  },
+  {
+    "item": 3,
+    "target": "El carro lo tiene Pedro",
+    "transcription": "El carro no tiene pelo.",
+    "similarity": 0.87,
+    "start": 176.06,
+    "end": 177.42
+  },
+  {
+    "item": 4,
+    "target": "El se ducha cada mañana",
+    "transcription": "Él se ducha cada mañana.",
+    "similarity": 0.957,
+    "start": 183.84,
+    "end": 185.36
+  },
+  {
+    "item": 5,
+    "target": "Qué dice usted que va a hacer hoy",
+    "transcription": "¿Qué dice usted que va a hacer hoy?",
+    "similarity": 1.0,
+    "start": 192.44,
+    "end": 194.64
+  },
+  {
+    "item": 6,
+    "target": "Dudo que sepa manejar muy bien",
+    "transcription": "Dudo que sepa manejar muy bien.",
+    "similarity": 1.0,
+    "start": 201.04,
+    "end": 208.6
+  },
+  {
+    "item": 7,
+    "target": "Las calles de esta ciudad son muy anchas",
+    "transcription": "Las calles de esta ciudad son muy anchas.",
+    "similarity": 1.0,
+    "start": 210.6,
+    "end": 219.02
+  },
+  {
+    "item": 8,
+    "target": "Puede que llueva mañana todo el día",
+    "transcription": "Puede que llueva mañana todo el día.",
+    "similarity": 1.0,
+    "start": 222.06,
+    "end": 229.96
+  },
+  {
+    "item": 9,
+    "target": "Las casas son muy bonitas pero caras",
+    "transcription": "Las casas son muy bonitas pero caras.",
+    "similarity": 1.0,
+    "start": 231.04,
+    "end": 243.04
+  },
+  {
+    "item": 10,
+    "target": "Me gustan las películas que acaban bien",
+    "transcription": "Me gustan las películas que acaban bien.",
+    "similarity": 1.0,
+    "start": 243.04,
+    "end": 253.04
+  },
+  {
+    "item": 11,
+    "target": "El chico con el que yo salgo es español",
+    "transcription": "El chico con el que yo salgo es español.",
+    "similarity": 1.0,
+    "start": 253.04,
+    "end": 260.04
+  },
+  {
+    "item": 12,
+    "target": "Después de cenar me fui a dormir tranquilo",
+    "transcription": "Después de cenar, me fui a dormir tranquilo.",
+    "similarity": 1.0,
+    "start": 266.04,
+    "end": 272.04
+  },
+  {
+    "item": 13,
+    "target": "Quiero una casa en la que vivan mis animales",
+    "transcription": "Quiero una casa en la que vivan animales.",
+    "similarity": 0.909,
+    "start": 278.04,
+    "end": 290.04
+  },
+  {
+    "item": 14,
+    "target": "A nosotros nos fascinan las fiestas grandiosas",
+    "transcription": "A nosotros nos fascinan las fiestas grandiosas.",
+    "similarity": 1.0,
+    "start": 290.04,
+    "end": 300.04
+  },
+  {
+    "item": 15,
+    "target": "Ella sólo bebe cerveza y no come nada",
+    "transcription": "Ella solo bebe cerveza y no come nada.",
+    "similarity": 0.973,
+    "start": 303.04,
+    "end": 313.04
+  },
+  {
+    "item": 16,
+    "target": "Me gustaría que el precio de las casas bajara",
+    "transcription": "Él se ducha cada mañana.",
+    "similarity": 0.311,
+    "start": 187.5,
+    "end": 189.78
+  },
+  {
+    "item": 17,
+    "target": "Cruza a la derecha y después sigue todo recto",
+    "transcription": "Cruza a la derecha y después siga recto.",
+    "similarity": 0.844,
+    "start": 329.38,
+    "end": 346.56
+  },
+  {
+    "item": 18,
+    "target": "Ella ha terminado de pintar su apartamento",
+    "transcription": "Ella ha terminado de pintar su apartamento.",
+    "similarity": 1.0,
+    "start": 346.56,
+    "end": 360.34
+  },
+  {
+    "item": 19,
+    "target": "Me gustaría que empezara a hacer más calor pronto",
+    "transcription": "Me gustaría que empezara a hacer más calor pronto.",
+    "similarity": 1.0,
+    "start": 360.34,
+    "end": 365.46
+  },
+  {
+    "item": 20,
+    "target": "El niño al que se le murió el gato está triste",
+    "transcription": "El niño al que se le murió el gato está triste.",
+    "similarity": 1.0,
+    "start": 376.56,
+    "end": 379.22
+  },
+  {
+    "item": 21,
+    "target": "Una amiga mía cuida a los niños de mi vecino",
+    "transcription": "Una amiga mía cuida de los niños de mi vecino.",
+    "similarity": 0.956,
+    "start": 390.68,
+    "end": 393.38
+  },
+  {
+    "item": 22,
+    "target": "El gato que era negro fue perseguido por el perro",
+    "transcription": "El gato que era negro.",
+    "similarity": 0.429,
+    "start": 400.86,
+    "end": 425.86
+  },
+  {
+    "item": 23,
+    "target": "Antes de poder salir él tiene que limpiar su cuarto",
+    "transcription": "Después de poder salir, tiene que limpiar su cuarto.",
+    "similarity": 0.824,
+    "start": 425.86,
+    "end": 441.58
+  },
+  {
+    "item": 24,
+    "target": "La cantidad de personas que fuman ha disminuido",
+    "transcription": "la cantidad de personas que fuman.",
+    "similarity": 0.702,
+    "start": 441.58,
+    "end": 458.14
+  },
+  {
+    "item": 25,
+    "target": "Después de llegar a casa del trabajo tomé la cena",
+    "transcription": "Después de cenar, me fui a dormir tranquilo.",
+    "similarity": 0.408,
+    "start": 272.04,
+    "end": 278.04
+  },
+  {
+    "item": 26,
+    "target": "El ladrón al que atrapó la policía era famoso",
+    "transcription": "Antes de llegar a casa, el ladrón policía era famoso.",
+    "similarity": 0.51,
+    "start": 458.14,
+    "end": 476.64
+  },
+  {
+    "item": 27,
+    "target": "Le pedí a un amigo que me ayudara con la tarea",
+    "transcription": "Le pedí a un amigo que me ayudara con la tarea.",
+    "similarity": 1.0,
+    "start": 476.64,
+    "end": 492.64
+  },
+  {
+    "item": 28,
+    "target": "El examen no fue tan difícil como me habían dicho",
+    "transcription": "¿El examen no fue tan difícil como me habían dicho?",
+    "similarity": 1.0,
+    "start": 492.64,
+    "end": 500.52
+  },
+  {
+    "item": 29,
+    "target": "Serías tan amable de darme el libro que está en la mesa",
+    "transcription": "¿Serías tan amable de darme el libro que está en la mesa?",
+    "similarity": 1.0,
+    "start": 512.36,
+    "end": 515.98
+  },
+  {
+    "item": 30,
+    "target": "Hay mucha gente que no toma nada para el desayuno",
+    "transcription": "Hay mucha gente que no toma nada para el desayuno.",
+    "similarity": 1.0,
+    "start": 525.94,
+    "end": 531.0
+  }
+]
