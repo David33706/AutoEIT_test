@@ -1,0 +1,10 @@
+openai-whisper
+torch
+librosa
+pydub
+noisereduce
+soundfile
+jiwer
+openpyxl
+pandas
+numpy
