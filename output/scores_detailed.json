@@ -1,0 +1,970 @@
+{
+  "38001-1A": [
+    {
+      "item": 1,
+      "target": "Quiero cortarme el pelo",
+      "transcription": "Quiero cortarme el pelo",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 2,
+      "target": "El libro está en la mesa",
+      "transcription": "El libro está en la mesa",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 3,
+      "target": "El carro lo tiene Pedro",
+      "transcription": "El carro lo tiene Pedro",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 4,
+      "target": "El se ducha cada mañana",
+      "transcription": "El se ducha cada mañana",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 5,
+      "target": "Qué dice usted que va a hacer hoy",
+      "transcription": "Que dices ustedes se que van a hacer hoy?",
+      "score": 2,
+      "content_overlap": 0.75,
+      "levenshtein_sim": 0.82
+    },
+    {
+      "item": 6,
+      "target": "Dudo que sepa manejar muy bien",
+      "transcription": "Dudo que sepa manajar bien",
+      "score": 3,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.83
+    },
+    {
+      "item": 7,
+      "target": "Las calles de esta ciudad son muy anchas",
+      "transcription": "Las calles de esta cuidad son muy anchas",
+      "score": 2,
+      "content_overlap": 0.67,
+      "levenshtein_sim": 0.95
+    },
+    {
+      "item": 8,
+      "target": "Puede que llueva mañana todo el día",
+      "transcription": "Puede que lleva mañana todo el día",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.97
+    },
+    {
+      "item": 9,
+      "target": "Las casas son muy bonitas pero caras",
+      "transcription": "Las casas son muy bonitas pero muy cadas",
+      "score": 3,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.88
+    },
+    {
+      "item": 10,
+      "target": "Me gustan las películas que acaban bien",
+      "transcription": "Me gustan las peliculas que acaban bien",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 11,
+      "target": "El chico con el que yo salgo es español",
+      "transcription": "El chico con yo salgo ...um.. está bien",
+      "score": 2,
+      "content_overlap": 0.67,
+      "levenshtein_sim": 0.62
+    },
+    {
+      "item": 12,
+      "target": "Después de cenar me fui a dormir tranquilo",
+      "transcription": "Despues de cenar me fui a dormir tranquilo",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 13,
+      "target": "Quiero una casa en la que vivan mis animales",
+      "transcription": "Quiero una casa que vivan los animales",
+      "score": 3,
+      "content_overlap": 0.8,
+      "levenshtein_sim": 0.82
+    },
+    {
+      "item": 14,
+      "target": "A nosotros nos fascinan las fiestas grandiosas",
+      "transcription": "A nosotros ..nos fascina los fiestas grandiosos",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.93
+    },
+    {
+      "item": 15,
+      "target": "Ella sólo bebe cerveza y no come nada",
+      "transcription": "Ella solo bebe cerveza y no come nada",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 16,
+      "target": "Me gustaría que el precio de las casas bajara",
+      "transcription": "Me gustaría que las precios de las casas bajaron",
+      "score": 2,
+      "content_overlap": 0.75,
+      "levenshtein_sim": 0.88
+    },
+    {
+      "item": 17,
+      "target": "Cruza a la derecha y después sigue todo recto",
+      "transcription": "Cruza a la derecha y sigue a la izquierda",
+      "score": 2,
+      "content_overlap": 0.6,
+      "levenshtein_sim": 0.58
+    },
+    {
+      "item": 18,
+      "target": "Ella ha terminado de pintar su apartamento",
+      "transcription": "Ella ha terminado pintando su apartamento",
+      "score": 2,
+      "content_overlap": 0.67,
+      "levenshtein_sim": 0.86
+    },
+    {
+      "item": 19,
+      "target": "Me gustaría que empezara a hacer más calor pronto",
+      "transcription": "Me gustaría se .. más calor",
+      "score": 1,
+      "content_overlap": 0.4,
+      "levenshtein_sim": 0.47
+    },
+    {
+      "item": 20,
+      "target": "El niño al que se le murió el gato está triste",
+      "transcription": "El niño que se murió su gato es triste",
+      "score": 3,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.78
+    },
+    {
+      "item": 21,
+      "target": "Una amiga mía cuida a los niños de mi vecino",
+      "transcription": "una amiga de mio cuida su... niños de vecino",
+      "score": 3,
+      "content_overlap": 0.8,
+      "levenshtein_sim": 0.73
+    },
+    {
+      "item": 22,
+      "target": "El gato que era negro fue perseguido por el perro",
+      "transcription": "El gato que era negro era perseguido de(l) perro",
+      "score": 3,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.84
+    },
+    {
+      "item": 23,
+      "target": "Antes de poder salir él tiene que limpiar su cuarto",
+      "transcription": "Antes de salir el tiene que limpiar su cuarto",
+      "score": 3,
+      "content_overlap": 0.83,
+      "levenshtein_sim": 0.88
+    },
+    {
+      "item": 24,
+      "target": "La cantidad de personas que fuman ha disminuido",
+      "transcription": "La cantidad de personas que fuman ha..desmenido",
+      "score": 2,
+      "content_overlap": 0.75,
+      "levenshtein_sim": 0.91
+    },
+    {
+      "item": 25,
+      "target": "Después de llegar a casa del trabajo tomé la cena",
+      "transcription": "Despues de llegar a casa del trabajo...se...meh",
+      "score": 2,
+      "content_overlap": 0.67,
+      "levenshtein_sim": 0.76
+    },
+    {
+      "item": 26,
+      "target": "El ladrón al que atrapó la policía era famoso",
+      "transcription": "El ladrón que atrapó la policia era famoso",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.93
+    },
+    {
+      "item": 27,
+      "target": "Le pedí a un amigo que me ayudara con la tarea",
+      "transcription": "Le pedí a un amigo que me ayudara con la tarea",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 28,
+      "target": "El examen no fue tan difícil como me habían dicho",
+      "transcription": "El examen no fue tan dificil como me decían",
+      "score": 2,
+      "content_overlap": 0.5,
+      "levenshtein_sim": 0.82
+    },
+    {
+      "item": 29,
+      "target": "Serías tan amable de darme el libro que está en la mesa",
+      "transcription": "Serías tan amable pa'- darme el libro que está en la mesa?",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.95
+    },
+    {
+      "item": 30,
+      "target": "Hay mucha gente que no toma nada para el desayuno",
+      "transcription": "Hay mucha genta que no to- toma nada para el desayuno.",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.98
+    }
+  ],
+  "38002-2A": [
+    {
+      "item": 1,
+      "target": "Quiero cortarme el pelo",
+      "transcription": "Quiero cortarme el pelo",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 2,
+      "target": "El libro está en la mesa",
+      "transcription": "El libro está en la mesa.",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 3,
+      "target": "El carro lo tiene Pedro",
+      "transcription": "El carro tiene pelo.",
+      "score": 2,
+      "content_overlap": 0.67,
+      "levenshtein_sim": 0.78
+    },
+    {
+      "item": 4,
+      "target": "El se ducha cada mañana",
+      "transcription": "él se ducha cada mañana",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 5,
+      "target": "Qué dice usted que va a hacer hoy",
+      "transcription": "en que ustedes x uf x hacer hoy?",
+      "score": 2,
+      "content_overlap": 0.5,
+      "levenshtein_sim": 0.58
+    },
+    {
+      "item": 6,
+      "target": "Dudo que sepa manejar muy bien",
+      "transcription": "dudo/tu no? sepiar exx muy bien",
+      "score": 1,
+      "content_overlap": 0.25,
+      "levenshtein_sim": 0.57
+    },
+    {
+      "item": 7,
+      "target": "Las calles de esta ciudad son muy anchas",
+      "transcription": "La calles estén xxxx muy anchas.",
+      "score": 2,
+      "content_overlap": 0.67,
+      "levenshtein_sim": 0.62
+    },
+    {
+      "item": 8,
+      "target": "Puede que llueva mañana todo el día",
+      "transcription": "Puede que mañana todo la día",
+      "score": 2,
+      "content_overlap": 0.75,
+      "levenshtein_sim": 0.74
+    },
+    {
+      "item": 9,
+      "target": "Las casas son muy bonitas pero caras",
+      "transcription": "Las casas muy bonitos pero ... casas",
+      "score": 3,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.83
+    },
+    {
+      "item": 10,
+      "target": "Me gustan las películas que acaban bien",
+      "transcription": "Me gustan las películas campan bien",
+      "score": 2,
+      "content_overlap": 0.75,
+      "levenshtein_sim": 0.82
+    },
+    {
+      "item": 11,
+      "target": "El chico con el que yo salgo es español",
+      "transcription": "el chico con ... español",
+      "score": 2,
+      "content_overlap": 0.67,
+      "levenshtein_sim": 0.51
+    },
+    {
+      "item": 12,
+      "target": "Después de cenar me fui a dormir tranquilo",
+      "transcription": "después de finar ... él dormir xxx",
+      "score": 1,
+      "content_overlap": 0.4,
+      "levenshtein_sim": 0.55
+    },
+    {
+      "item": 13,
+      "target": "Quiero una casa en la que vivan mis animales",
+      "transcription": "Quiere una casa con animales",
+      "score": 2,
+      "content_overlap": 0.6,
+      "levenshtein_sim": 0.57
+    },
+    {
+      "item": 14,
+      "target": "A nosotros nos fascinan las fiestas grandiosas",
+      "transcription": "a nosotros fana-xxx fiestas grandinosas",
+      "score": 2,
+      "content_overlap": 0.5,
+      "levenshtein_sim": 0.61
+    },
+    {
+      "item": 15,
+      "target": "Ella sólo bebe cerveza y no come nada",
+      "transcription": "Ella xxx no beber querer",
+      "score": 1,
+      "content_overlap": 0.2,
+      "levenshtein_sim": 0.38
+    },
+    {
+      "item": 16,
+      "target": "Me gustaría que el precio de las casas bajara",
+      "transcription": "Me gusta el casa xxx...",
+      "score": 1,
+      "content_overlap": 0.25,
+      "levenshtein_sim": 0.36
+    },
+    {
+      "item": 17,
+      "target": "Cruza a la derecha y después sigue todo recto",
+      "transcription": "en quises a la derecha xxx...",
+      "score": 1,
+      "content_overlap": 0.2,
+      "levenshtein_sim": 0.24
+    },
+    {
+      "item": 18,
+      "target": "Ella ha terminado de pintar su apartamento",
+      "transcription": "Ella tiene termino xx apartamento",
+      "score": 2,
+      "content_overlap": 0.67,
+      "levenshtein_sim": 0.55
+    },
+    {
+      "item": 19,
+      "target": "Me gustaría que empezara a hacer más calor pronto",
+      "transcription": "Me gusta que d-crxxx calor pranto",
+      "score": 1,
+      "content_overlap": 0.4,
+      "levenshtein_sim": 0.55
+    },
+    {
+      "item": 20,
+      "target": "El niño al que se le murió el gato está triste",
+      "transcription": "El niño se murió el gato y triste",
+      "score": 3,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.7
+    },
+    {
+      "item": 21,
+      "target": "Una amiga mía cuida a los niños de mi vecino",
+      "transcription": "Una amigo que niña ha cuidado",
+      "score": 0,
+      "content_overlap": 0.2,
+      "levenshtein_sim": 0.39
+    },
+    {
+      "item": 22,
+      "target": "El gato que era negro fue perseguido por el perro",
+      "transcription": "El gato negro se fuera el perro son",
+      "score": 2,
+      "content_overlap": 0.6,
+      "levenshtein_sim": 0.45
+    },
+    {
+      "item": 23,
+      "target": "Antes de poder salir él tiene que limpiar su cuarto",
+      "transcription": "Antes de salir limpio.. el caso",
+      "score": 1,
+      "content_overlap": 0.33,
+      "levenshtein_sim": 0.49
+    },
+    {
+      "item": 24,
+      "target": "La cantidad de personas que fuman ha disminuido",
+      "transcription": "la cantidad de las personas fe-xxx fumar",
+      "score": 2,
+      "content_overlap": 0.75,
+      "levenshtein_sim": 0.51
+    },
+    {
+      "item": 25,
+      "target": "Después de llegar a casa del trabajo tomé la cena",
+      "transcription": "Después de llegar la casa pone cena",
+      "score": 2,
+      "content_overlap": 0.67,
+      "levenshtein_sim": 0.63
+    },
+    {
+      "item": 26,
+      "target": "El ladrón al que atrapó la policía era famoso",
+      "transcription": "El xxx la policía es famoso",
+      "score": 1,
+      "content_overlap": 0.4,
+      "levenshtein_sim": 0.49
+    },
+    {
+      "item": 27,
+      "target": "Le pedí a un amigo que me ayudara con la tarea",
+      "transcription": "Le pedí un amigo con ayuda con mí tarea",
+      "score": 2,
+      "content_overlap": 0.75,
+      "levenshtein_sim": 0.74
+    },
+    {
+      "item": 28,
+      "target": "El examen no fue tan difícil como me habían dicho",
+      "transcription": "El examen no es difícil cuando me xxx...",
+      "score": 2,
+      "content_overlap": 0.5,
+      "levenshtein_sim": 0.55
+    },
+    {
+      "item": 29,
+      "target": "Serías tan amable de darme el libro que está en la mesa",
+      "transcription": "El libro están en la mesa.",
+      "score": 1,
+      "content_overlap": 0.4,
+      "levenshtein_sim": 0.42
+    },
+    {
+      "item": 30,
+      "target": "Hay mucha gente que no toma nada para el desayuno",
+      "transcription": "Hay mucho gente no quiere desayuno",
+      "score": 2,
+      "content_overlap": 0.67,
+      "levenshtein_sim": 0.59
+    }
+  ],
+  "38004-2A": [
+    {
+      "item": 1,
+      "target": "Quiero cortarme el pelo",
+      "transcription": "Quiero cortarme el pelo",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 2,
+      "target": "El libro está en la mesa",
+      "transcription": "El libro está en la mesa",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 3,
+      "target": "El carro lo tiene Pedro",
+      "transcription": "El carro tiene Pedro",
+      "score": 3,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.87
+    },
+    {
+      "item": 4,
+      "target": "El se ducha cada mañana",
+      "transcription": "El se ducha cada mañana",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 5,
+      "target": "Qué dice usted que va a hacer hoy",
+      "transcription": "¿Qué dices usted vas hacer hoy?",
+      "score": 2,
+      "content_overlap": 0.75,
+      "levenshtein_sim": 0.79
+    },
+    {
+      "item": 6,
+      "target": "Dudo que sepa manejar muy bien",
+      "transcription": "Dudo que sepa manejar muy bien",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 7,
+      "target": "Las calles de esta ciudad son muy anchas",
+      "transcription": "Las calles de esta ciudad es muy anchas",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.93
+    },
+    {
+      "item": 8,
+      "target": "Puede que llueva mañana todo el día",
+      "transcription": "Pueda que llueva mañana todo día",
+      "score": 3,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.89
+    },
+    {
+      "item": 9,
+      "target": "Las casas son muy bonitas pero caras",
+      "transcription": "Las casas son muy bonitas para caras",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.94
+    },
+    {
+      "item": 10,
+      "target": "Me gustan las películas que acaban bien",
+      "transcription": "Mis gus..Me gustas las películas que cada bien",
+      "score": 2,
+      "content_overlap": 0.75,
+      "levenshtein_sim": 0.75
+    },
+    {
+      "item": 11,
+      "target": "El chico con el que yo salgo es español",
+      "transcription": "El chico con esolago(es yo algo?) es español",
+      "score": 2,
+      "content_overlap": 0.67,
+      "levenshtein_sim": 0.74
+    },
+    {
+      "item": 12,
+      "target": "Después de cenar me fui a dormir tranquilo",
+      "transcription": "Después de cenar fui a dormir tranquilo",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.93
+    },
+    {
+      "item": 13,
+      "target": "Quiero una casa en la que vivan mis animales",
+      "transcription": "Queda una ca..Quiere una casa en queda mis animales...mis animales quedan",
+      "score": 2,
+      "content_overlap": 0.6,
+      "levenshtein_sim": 0.51
+    },
+    {
+      "item": 14,
+      "target": "A nosotros nos fascinan las fiestas grandiosas",
+      "transcription": "A nosotros fascinmas festivales",
+      "score": 1,
+      "content_overlap": 0.25,
+      "levenshtein_sim": 0.57
+    },
+    {
+      "item": 15,
+      "target": "Ella sólo bebe cerveza y no come nada",
+      "transcription": "Ella sólo cerveza y como nada",
+      "score": 2,
+      "content_overlap": 0.6,
+      "levenshtein_sim": 0.76
+    },
+    {
+      "item": 16,
+      "target": "Me gustaría que el precio de las casas bajara",
+      "transcription": "Me gustaría que los precios de la casa bajara",
+      "score": 3,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.87
+    },
+    {
+      "item": 17,
+      "target": "Cruza a la derecha y después sigue todo recto",
+      "transcription": "Sigue a la derecha y cruzo a la directo..y sique a la directo",
+      "score": 2,
+      "content_overlap": 0.6,
+      "levenshtein_sim": 0.49
+    },
+    {
+      "item": 18,
+      "target": "Ella ha terminado de pintar su apartamento",
+      "transcription": "Ella se terminar pintar su apartamento",
+      "score": 3,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.83
+    },
+    {
+      "item": 19,
+      "target": "Me gustaría que empezara a hacer más calor pronto",
+      "transcription": "Me gustaría hacer..xx calores pronto",
+      "score": 2,
+      "content_overlap": 0.6,
+      "levenshtein_sim": 0.57
+    },
+    {
+      "item": 20,
+      "target": "El niño al que se le murió el gato está triste",
+      "transcription": "El niño que se murió su gato es triste",
+      "score": 3,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.78
+    },
+    {
+      "item": 21,
+      "target": "Una amiga mía cuida a los niños de mi vecino",
+      "transcription": "Una amiga mía cuidado a los vecinos",
+      "score": 2,
+      "content_overlap": 0.6,
+      "levenshtein_sim": 0.66
+    },
+    {
+      "item": 22,
+      "target": "El gato que era negro fue perseguido por el perro",
+      "transcription": "El gato que es negro... [cough]...",
+      "score": 1,
+      "content_overlap": 0.4,
+      "levenshtein_sim": 0.39
+    },
+    {
+      "item": 23,
+      "target": "Antes de poder salir él tiene que limpiar su cuarto",
+      "transcription": "Antes de salir tienes xxx cu-cuarto",
+      "score": 2,
+      "content_overlap": 0.5,
+      "levenshtein_sim": 0.55
+    },
+    {
+      "item": 24,
+      "target": "La cantidad de personas que fuman ha disminuido",
+      "transcription": "La cantidad de personas que fu-han fumado se distruy...",
+      "score": 2,
+      "content_overlap": 0.5,
+      "levenshtein_sim": 0.69
+    },
+    {
+      "item": 25,
+      "target": "Después de llegar a casa del trabajo tomé la cena",
+      "transcription": "Después de llegar a-de trabajo cena a mi casa",
+      "score": 3,
+      "content_overlap": 0.83,
+      "levenshtein_sim": 0.63
+    },
+    {
+      "item": 26,
+      "target": "El ladrón al que atrapó la policía era famoso",
+      "transcription": "La ladrón que atropó la policía es famoso",
+      "score": 3,
+      "content_overlap": 0.8,
+      "levenshtein_sim": 0.82
+    },
+    {
+      "item": 27,
+      "target": "Le pedí a un amigo que me ayudara con la tarea",
+      "transcription": "Le pedí un amigo que me ayuda con la tarea",
+      "score": 2,
+      "content_overlap": 0.75,
+      "levenshtein_sim": 0.91
+    },
+    {
+      "item": 28,
+      "target": "El examen no fue tan difícil como me habían dicho",
+      "transcription": "El examen no ..a..va a..fue a tan difícil",
+      "score": 2,
+      "content_overlap": 0.5,
+      "levenshtein_sim": 0.47
+    },
+    {
+      "item": 29,
+      "target": "Serías tan amable de darme el libro que está en la mesa",
+      "transcription": "Sales de donde está mi libro en está mesa",
+      "score": 1,
+      "content_overlap": 0.4,
+      "levenshtein_sim": 0.47
+    },
+    {
+      "item": 30,
+      "target": "Hay mucha gente que no toma nada para el desayuno",
+      "transcription": "Hay mucha gente que no toma tiempo para desayuno",
+      "score": 3,
+      "content_overlap": 0.83,
+      "levenshtein_sim": 0.82
+    }
+  ],
+  "38006-2A": [
+    {
+      "item": 1,
+      "target": "Quiero cortarme el pelo",
+      "transcription": "Quiero cortarme mi pelo",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.91
+    },
+    {
+      "item": 2,
+      "target": "El libro está en la mesa",
+      "transcription": "El libro [pause] está en la mesa",
+      "score": 4,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 1.0
+    },
+    {
+      "item": 3,
+      "target": "El carro lo tiene Pedro",
+      "transcription": "E-[gibberish] perro",
+      "score": 0,
+      "content_overlap": 0.33,
+      "levenshtein_sim": 0.17
+    },
+    {
+      "item": 4,
+      "target": "El se ducha cada mañana",
+      "transcription": "El se lucha cada mañana",
+      "score": 2,
+      "content_overlap": 0.5,
+      "levenshtein_sim": 0.96
+    },
+    {
+      "item": 5,
+      "target": "Qué dice usted que va a hacer hoy",
+      "transcription": "¿Qué [gibberish] que vas estoy?",
+      "score": 0,
+      "content_overlap": 0.0,
+      "levenshtein_sim": 0.42
+    },
+    {
+      "item": 6,
+      "target": "Dudo que sepa manejar muy bien",
+      "transcription": "Dudo que sepa ma-mastar tan bien (tambien?)",
+      "score": 2,
+      "content_overlap": 0.75,
+      "levenshtein_sim": 0.75
+    },
+    {
+      "item": 7,
+      "target": "Las calles de esta ciudad son muy anchas",
+      "transcription": "Las calles..es-[gibberish]...",
+      "score": 0,
+      "content_overlap": 0.0,
+      "levenshtein_sim": 0.3
+    },
+    {
+      "item": 8,
+      "target": "Puede que llueva mañana todo el día",
+      "transcription": "Puede xxx mañana de todo día",
+      "score": 2,
+      "content_overlap": 0.75,
+      "levenshtein_sim": 0.51
+    },
+    {
+      "item": 9,
+      "target": "Las casas son muy bonitas pero caras",
+      "transcription": "A las casa es mu-son bonitas",
+      "score": 2,
+      "content_overlap": 0.67,
+      "levenshtein_sim": 0.44
+    },
+    {
+      "item": 10,
+      "target": "Me gustan las películas que acaban bien",
+      "transcription": "Me gusta las películas que x bien",
+      "score": 2,
+      "content_overlap": 0.75,
+      "levenshtein_sim": 0.79
+    },
+    {
+      "item": 11,
+      "target": "El chico con el que yo salgo es español",
+      "transcription": "El chico con es el algo (xxx?) es español",
+      "score": 3,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.82
+    },
+    {
+      "item": 12,
+      "target": "Después de cenar me fui a dormir tranquilo",
+      "transcription": "Después de fenar mi fui a tranquilo",
+      "score": 3,
+      "content_overlap": 0.8,
+      "levenshtein_sim": 0.79
+    },
+    {
+      "item": 13,
+      "target": "Quiero una casa en la que vivan mis animales",
+      "transcription": "Quienen que en el casa ...muchos animales",
+      "score": 1,
+      "content_overlap": 0.4,
+      "levenshtein_sim": 0.48
+    },
+    {
+      "item": 14,
+      "target": "A nosotros nos fascinan las fiestas grandiosas",
+      "transcription": "A nosotros fanimos [pause] fiestas grandiosas",
+      "score": 2,
+      "content_overlap": 0.5,
+      "levenshtein_sim": 0.74
+    },
+    {
+      "item": 15,
+      "target": "Ella sólo bebe cerveza y no come nada",
+      "transcription": "Ella bebidas cerviamos y no comidas",
+      "score": 1,
+      "content_overlap": 0.0,
+      "levenshtein_sim": 0.49
+    },
+    {
+      "item": 16,
+      "target": "Me gustaría que el precio de las casas bajara",
+      "transcription": "Me gustaría ser..ella...mhh..",
+      "score": 1,
+      "content_overlap": 0.25,
+      "levenshtein_sim": 0.38
+    },
+    {
+      "item": 17,
+      "target": "Cruza a la derecha y después sigue todo recto",
+      "transcription": "Cruze a la derecha de siguelo",
+      "score": 1,
+      "content_overlap": 0.4,
+      "levenshtein_sim": 0.6
+    },
+    {
+      "item": 18,
+      "target": "Ella ha terminado de pintar su apartamento",
+      "transcription": "Ella terminado pintar a sus apartmento",
+      "score": 3,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.76
+    },
+    {
+      "item": 19,
+      "target": "Me gustaría que empezara a hacer más calor pronto",
+      "transcription": "Me gustaría se..[pause] xxx pronto",
+      "score": 1,
+      "content_overlap": 0.4,
+      "levenshtein_sim": 0.41
+    },
+    {
+      "item": 20,
+      "target": "El niño al que se le murió el gato está triste",
+      "transcription": "El niño se murió el gato es muy triste",
+      "score": 3,
+      "content_overlap": 1.0,
+      "levenshtein_sim": 0.7
+    },
+    {
+      "item": 21,
+      "target": "Una amiga mía cuida a los niños de mi vecino",
+      "transcription": "Una mía amiga cuidado a sus niños",
+      "score": 2,
+      "content_overlap": 0.6,
+      "levenshtein_sim": 0.52
+    },
+    {
+      "item": 22,
+      "target": "El gato que era negro fue perseguido por el perro",
+      "transcription": "El gato-el gato quien era el nego de perro",
+      "score": 3,
+      "content_overlap": 0.8,
+      "levenshtein_sim": 0.45
+    },
+    {
+      "item": 23,
+      "target": "Antes de poder salir él tiene que limpiar su cuarto",
+      "transcription": "Antes de podai e salir..[pause] antes de xxx",
+      "score": 1,
+      "content_overlap": 0.33,
+      "levenshtein_sim": 0.41
+    },
+    {
+      "item": 24,
+      "target": "La cantidad de personas que fuman ha disminuido",
+      "transcription": "A la cantan... [pause] muy a xxx",
+      "score": 0,
+      "content_overlap": 0.0,
+      "levenshtein_sim": 0.23
+    },
+    {
+      "item": 25,
+      "target": "Después de llegar a casa del trabajo tomé la cena",
+      "transcription": "Después de llegar [pause] al trabajo...",
+      "score": 2,
+      "content_overlap": 0.5,
+      "levenshtein_sim": 0.57
+    },
+    {
+      "item": 26,
+      "target": "El ladrón al que atrapó la policía era famoso",
+      "transcription": "X- ladróna(?)de policio que es famoso",
+      "score": 1,
+      "content_overlap": 0.4,
+      "levenshtein_sim": 0.51
+    },
+    {
+      "item": 27,
+      "target": "Le pedí a un amigo que me ayudara con la tarea",
+      "transcription": "Que ped-x una amigo [pause] a su tarea",
+      "score": 1,
+      "content_overlap": 0.5,
+      "levenshtein_sim": 0.39
+    },
+    {
+      "item": 28,
+      "target": "El examen no fue tan difícil como me habían dicho",
+      "transcription": "El examen no difícil.. [pause]... [gibberish]",
+      "score": 2,
+      "content_overlap": 0.5,
+      "levenshtein_sim": 0.41
+    },
+    {
+      "item": 29,
+      "target": "Serías tan amable de darme el libro que está en la mesa",
+      "transcription": "El libro que está en la mesa",
+      "score": 2,
+      "content_overlap": 0.4,
+      "levenshtein_sim": 0.51
+    },
+    {
+      "item": 30,
+      "target": "Hay mucha gente que no toma nada para el desayuno",
+      "transcription": "A mucha gente xxx...",
+      "score": 1,
+      "content_overlap": 0.33,
+      "levenshtein_sim": 0.27
+    }
+  ]
+}
