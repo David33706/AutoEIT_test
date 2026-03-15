@@ -120,149 +120,156 @@
   },
   {
     "start": 276.54,
-    "end": 287.58,
-    "text": "malditas个 المصي노",
+    "end": 287.6,
+    "text": "a nosotros que las vistas",
     "no_speech_prob": 0.382,
-    "avg_logprob": -4.614
+    "avg_logprob": -0.487
   },
   {
-    "start": 287.58,
-    "end": 298.58,
-    "text": "Ellas solo beben cerveza y no comen nada.",
-    "no_speech_prob": 0.221,
-    "avg_logprob": -0.329
+    "start": 287.6,
+    "end": 295.24,
+    "text": "ellas solo beben cerveza",
+    "no_speech_prob": 0.382,
+    "avg_logprob": -0.487
   },
   {
-    "start": 298.58,
-    "end": 308.58,
-    "text": "Ellas solo beben cerveza y no comen nada.",
-    "no_speech_prob": 0.221,
-    "avg_logprob": -0.329
+    "start": 295.24,
+    "end": 296.3,
+    "text": "y no comen nada",
+    "no_speech_prob": 0.382,
+    "avg_logprob": -0.487
   },
   {
-    "start": 308.58,
-    "end": 312.58,
-    "text": "Me gustaría que el precio de las casas bajara.",
-    "no_speech_prob": 0.221,
-    "avg_logprob": -0.329
+    "start": 296.3,
+    "end": 300.08,
+    "text": "ellas solo beben cerveza",
+    "no_speech_prob": 0.382,
+    "avg_logprob": -0.487
   },
   {
-    "start": 312.58,
-    "end": 317.66,
+    "start": 300.08,
+    "end": 302.36,
+    "text": "y como",
+    "no_speech_prob": 0.382,
+    "avg_logprob": -0.487
+  },
+  {
+    "start": 302.36,
+    "end": 327.36,
     "text": "Me gustaría los precios de las caras para nada.",
-    "no_speech_prob": 0.083,
-    "avg_logprob": -0.454
+    "no_speech_prob": 0.116,
+    "avg_logprob": -0.407
   },
   {
-    "start": 326.54,
-    "end": 333.24,
+    "start": 327.36,
+    "end": 334.36,
     "text": "Cruza a la derecha y siga derecho.",
-    "no_speech_prob": 0.083,
-    "avg_logprob": -0.454
+    "no_speech_prob": 0.191,
+    "avg_logprob": -0.391
   },
   {
-    "start": 333.24,
-    "end": 340.24,
-    "text": "Ella ha terminado de pintar su apartamento.",
-    "no_speech_prob": 0.266,
-    "avg_logprob": -0.27
+    "start": 341.36,
+    "end": 347.36,
+    "text": "Ella ha terminado los apartamentos.",
+    "no_speech_prob": 0.191,
+    "avg_logprob": -0.391
   },
   {
-    "start": 340.24,
-    "end": 346.24,
-    "text": "Ella ha terminado los apartamento.",
-    "no_speech_prob": 0.266,
-    "avg_logprob": -0.27
-  },
-  {
-    "start": 346.24,
-    "end": 353.24,
+    "start": 347.36,
+    "end": 353.6,
     "text": "Me gustaría que empezara a hacer más calor pronto.",
-    "no_speech_prob": 0.266,
-    "avg_logprob": -0.27
+    "no_speech_prob": 0.282,
+    "avg_logprob": -0.279
   },
   {
-    "start": 353.24,
-    "end": 358.24,
+    "start": 353.6,
+    "end": 358.44,
     "text": "Me gustaría las hacer pronto.",
-    "no_speech_prob": 0.266,
-    "avg_logprob": -0.27
+    "no_speech_prob": 0.282,
+    "avg_logprob": -0.279
   },
   {
-    "start": 358.24,
-    "end": 371.56,
+    "start": 358.44,
+    "end": 367.74,
     "text": "El niño al que se le murió el gato está triste.",
-    "no_speech_prob": 0.3,
-    "avg_logprob": -0.311
+    "no_speech_prob": 0.282,
+    "avg_logprob": -0.279
   },
   {
-    "start": 371.56,
-    "end": 386.8,
-    "text": "Una amiga bien cuidar a los niños a mi vecino.",
-    "no_speech_prob": 0.3,
-    "avg_logprob": -0.311
+    "start": 367.74,
+    "end": 371.48,
+    "text": "El niño al que se le murió el gato está triste.",
+    "no_speech_prob": 0.282,
+    "avg_logprob": -0.279
   },
   {
-    "start": 386.8,
-    "end": 411.4,
+    "start": 371.48,
+    "end": 396.02,
+    "text": "Una amiga bien cuidar los niños a mi vecino.",
+    "no_speech_prob": 0.355,
+    "avg_logprob": -0.423
+  },
+  {
+    "start": 396.02,
+    "end": 411.54,
     "text": "El gato era negro y el perro.",
-    "no_speech_prob": 0.229,
-    "avg_logprob": -0.273
+    "no_speech_prob": 0.071,
+    "avg_logprob": -0.392
   },
   {
-    "start": 411.4,
-    "end": 419.4,
+    "start": 411.54,
+    "end": 419.54,
     "text": "Parece que salir fue de cuarto.",
-    "no_speech_prob": 0.41,
-    "avg_logprob": -0.389
+    "no_speech_prob": 0.364,
+    "avg_logprob": -0.42
   },
   {
-    "start": 427.4,
-    "end": 431.4,
+    "start": 427.54,
+    "end": 431.54,
     "text": "La cantidad de las personas que fuman ha disminuido.",
-    "no_speech_prob": 0.41,
-    "avg_logprob": -0.389
+    "no_speech_prob": 0.364,
+    "avg_logprob": -0.42
   },
   {
-    "start": 441.4,
-    "end": 447.52,
+    "start": 441.54,
+    "end": 447.54,
     "text": "Después de llegar a la casa, fui a la cena.",
-    "no_speech_prob": 0.194,
-    "avg_logprob": -0.328
+    "no_speech_prob": 0.152,
+    "avg_logprob": -0.268
   },
   {
-    "start": 458.7,
+    "start": 458.8,
     "end": 465.74,
     "text": "Perdón, a la policía eran famoso.",
-    "no_speech_prob": 0.194,
-    "avg_logprob": -0.328
+    "no_speech_prob": 0.152,
+    "avg_logprob": -0.268
   },
   {
-    "start": 471.4,
-    "end": 478.4,
+    "start": 471.54,
+    "end": 478.54,
     "text": "Le pedí a un amigo que ayudara con mi tarea.",
-    "no_speech_prob": 0.162,
-    "avg_logprob": -0.329
+    "no_speech_prob": 0.161,
+    "avg_logprob": -0.343
   },
   {
-    "start": 488.4,
-    "end": 491.4,
+    "start": 487.54,
+    "end": 491.54,
     "text": "El examen no fue...",
-    "no_speech_prob": 0.162,
-    "avg_logprob": -0.329
+    "no_speech_prob": 0.161,
+    "avg_logprob": -0.343
   },
   {
-    "start": 501.4,
-    "end": 508.4,
+    "start": 501.54,
+    "end": 508.54,
     "text": "Seria amable que lo estan",
-    "no_speech_prob": 0.164,
-    "avg_logprob": -0.437
+    "no_speech_prob": 0.201,
+    "avg_logprob": -0.419
   },
   {
-    "start": 518.4,
-    "end": 523.4,
+    "start": 518.54,
+    "end": 522.54,
     "text": "Hay mucha gente que no tomara el desayuno",
-    "no_speech_prob": 0.164,
-    "avg_logprob": -0.437
+    "no_speech_prob": 0.201,
+    "avg_logprob": -0.419
   }
 ]

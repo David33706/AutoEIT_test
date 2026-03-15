@@ -141,24 +141,24 @@
   },
   {
     "start": 313.04,
-    "end": 318.52,
+    "end": 320.04,
     "text": "Ella solo bebe cerveza y no come nada.",
     "no_speech_prob": 0.135,
-    "avg_logprob": -0.898
+    "avg_logprob": -0.414
   },
   {
-    "start": 326.12,
-    "end": 329.38,
+    "start": 327.04,
+    "end": 329.04,
     "text": "Me gustaría...",
     "no_speech_prob": 0.135,
-    "avg_logprob": -0.898
+    "avg_logprob": -0.414
   },
   {
-    "start": 329.38,
+    "start": 329.04,
     "end": 346.56,
     "text": "Cruza a la derecha y después siga recto.",
-    "no_speech_prob": 0.455,
-    "avg_logprob": -0.413
+    "no_speech_prob": 0.492,
+    "avg_logprob": -0.391
   },
   {
     "start": 346.56,
