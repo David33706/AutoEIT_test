@@ -122,4 +122,4 @@ dmypy.json
 
 .DS_Store
 
-data/audio
+data/audio/*.mp3
