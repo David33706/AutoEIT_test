@@ -170,7 +170,9 @@ AutoEIT_test/
 ├── run_scoring.py             # Test II entry point (rule-based)
 ├── run_scoring_llm.py         # Test II entry point (LLM)
 ├── AutoEIT_Pipeline.ipynb     # Jupyter notebook (Test I)
-├── AutoEIT_Pipeline.pdf       # PDF of notebook with output
+├── AutoEIT_Pipeline.pdf       # PDF of notebook with output (Test I)
+├── AutoEIT_Scoring.ipynb      # Jupyter notebook (Test II)
+├── AutoEIT_Scoring.pdf        # PDF of notebook with output (Test II)
 ├── requirements.txt
 └── README.md
 ```
