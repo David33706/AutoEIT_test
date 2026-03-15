@@ -1,0 +1,970 @@
+{
+  "38001-1A": [
+    {
+      "item": 1,
+      "target": "Quiero cortarme el pelo",
+      "transcription": "Quiero cortarme el pelo",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    },
+    {
+      "item": 2,
+      "target": "El libro está en la mesa",
+      "transcription": "El libro está en la mesa",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    },
+    {
+      "item": 3,
+      "target": "El carro lo tiene Pedro",
+      "transcription": "El carro lo tiene Pedro",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    },
+    {
+      "item": 4,
+      "target": "El se ducha cada mañana",
+      "transcription": "El se ducha cada mañana",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    },
+    {
+      "item": 5,
+      "target": "Qué dice usted que va a hacer hoy",
+      "transcription": "Que dices ustedes se que van a hacer hoy?",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "The response preserves some meaning but has significant grammatical errors and changes that make it ambiguous. The main idea is present, but the structure alters the clarity."
+    },
+    {
+      "item": 6,
+      "target": "Dudo que sepa manejar muy bien",
+      "transcription": "Dudo que sepa manajar bien",
+      "rule_score": 3,
+      "llm_score": 3,
+      "llm_reason": "Complete meaning preserved. The learner omitted 'muy' but the overall meaning remains intact."
+    },
+    {
+      "item": 7,
+      "target": "Las calles de esta ciudad son muy anchas",
+      "transcription": "Las calles de esta cuidad son muy anchas",
+      "rule_score": 2,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception, despite the misspelling of 'ciudad'."
+    },
+    {
+      "item": 8,
+      "target": "Puede que llueva mañana todo el día",
+      "transcription": "Puede que lleva mañana todo el día",
+      "rule_score": 4,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea of the sentence but uses 'lleva' instead of 'llueva', which changes the meaning slightly. The structure is mostly intact."
+    },
+    {
+      "item": 9,
+      "target": "Las casas son muy bonitas pero caras",
+      "transcription": "Las casas son muy bonitas pero muy cadas",
+      "rule_score": 3,
+      "llm_score": 3,
+      "llm_reason": "Complete meaning preserved. The learner correctly repeated the main idea but made a grammatical error by substituting 'caras' with 'cadas', which does not affect the overall meaning."
+    },
+    {
+      "item": 10,
+      "target": "Me gustan las películas que acaban bien",
+      "transcription": "Me gustan las peliculas que acaban bien",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception, despite missing the accent."
+    },
+    {
+      "item": 11,
+      "target": "El chico con el que yo salgo es español",
+      "transcription": "El chico con yo salgo ...um.. está bien",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "More than half of the idea units are preserved, but the response is incomplete and ambiguous due to the omission of 'el que' and 'es español'."
+    },
+    {
+      "item": 12,
+      "target": "Después de cenar me fui a dormir tranquilo",
+      "transcription": "Despues de cenar me fui a dormir tranquilo",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    },
+    {
+      "item": 13,
+      "target": "Quiero una casa en la que vivan mis animales",
+      "transcription": "Quiero una casa que vivan los animales",
+      "rule_score": 3,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea of wanting a house for animals, but it is incomplete and ambiguous due to the omission of 'en la que' and the change from 'mis' to 'los', which alters the specificity."
+    },
+    {
+      "item": 14,
+      "target": "A nosotros nos fascinan las fiestas grandiosas",
+      "transcription": "A nosotros ..nos fascina los fiestas grandiosos",
+      "rule_score": 4,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea but has grammatical errors ('fascina' instead of 'fascinan', 'los' instead of 'las', and 'grandiosos' instead of 'grandiosas') that affect clarity."
+    },
+    {
+      "item": 15,
+      "target": "Ella sólo bebe cerveza y no come nada",
+      "transcription": "Ella solo bebe cerveza y no come nada",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception, with the only difference being the accent on 'sólo' which does not affect meaning."
+    },
+    {
+      "item": 16,
+      "target": "Me gustaría que el precio de las casas bajara",
+      "transcription": "Me gustaría que las precios de las casas bajaron",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea but has a grammatical error ('las precios' instead of 'el precio') and uses the wrong verb form ('bajaron' instead of 'bajara'). The meaning is close but not exact."
+    },
+    {
+      "item": 17,
+      "target": "Cruza a la derecha y después sigue todo recto",
+      "transcription": "Cruza a la derecha y sigue a la izquierda",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea of turning right but incorrectly states to go left instead of straight, leading to ambiguity."
+    },
+    {
+      "item": 18,
+      "target": "Ella ha terminado de pintar su apartamento",
+      "transcription": "Ella ha terminado pintando su apartamento",
+      "rule_score": 2,
+      "llm_score": 3,
+      "llm_reason": "Complete meaning preserved. The change from 'de pintar' to 'pintando' does not affect the overall meaning."
+    },
+    {
+      "item": 19,
+      "target": "Me gustaría que empezara a hacer más calor pronto",
+      "transcription": "Me gustaría se .. más calor",
+      "rule_score": 1,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. Important information is missing, and the response does not constitute a complete sentence."
+    },
+    {
+      "item": 20,
+      "target": "El niño al que se le murió el gato está triste",
+      "transcription": "El niño que se murió su gato es triste",
+      "rule_score": 3,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea of the child being sad, but it inaccurately conveys that the child died instead of the cat, leading to a significant change in meaning."
+    },
+    {
+      "item": 21,
+      "target": "Una amiga mía cuida a los niños de mi vecino",
+      "transcription": "una amiga de mio cuida su... niños de vecino",
+      "rule_score": 3,
+      "llm_score": 2,
+      "llm_reason": "More than half of the idea units are preserved, but there are significant inaccuracies in the possessive and missing articles, making the meaning incomplete."
+    },
+    {
+      "item": 22,
+      "target": "El gato que era negro fue perseguido por el perro",
+      "transcription": "El gato que era negro era perseguido de(l) perro",
+      "rule_score": 3,
+      "llm_score": 3,
+      "llm_reason": "Complete meaning preserved despite the grammatical change from 'por' to 'de'."
+    },
+    {
+      "item": 23,
+      "target": "Antes de poder salir él tiene que limpiar su cuarto",
+      "transcription": "Antes de salir el tiene que limpiar su cuarto",
+      "rule_score": 3,
+      "llm_score": 3,
+      "llm_reason": "Complete meaning preserved. The learner omitted 'poder' (to be able), but the overall meaning remains intact."
+    },
+    {
+      "item": 24,
+      "target": "La cantidad de personas que fuman ha disminuido",
+      "transcription": "La cantidad de personas que fuman ha..desmenido",
+      "rule_score": 2,
+      "llm_score": 3,
+      "llm_reason": "Complete meaning preserved despite a minor pronunciation error ('desmenido' instead of 'disminuido')."
+    },
+    {
+      "item": 25,
+      "target": "Después de llegar a casa del trabajo tomé la cena",
+      "transcription": "Despues de llegar a casa del trabajo...se...meh",
+      "rule_score": 2,
+      "llm_score": 0,
+      "llm_reason": "The response is unintelligible and does not convey any meaningful content."
+    },
+    {
+      "item": 26,
+      "target": "El ladrón al que atrapó la policía era famoso",
+      "transcription": "El ladrón que atrapó la policia era famoso",
+      "rule_score": 4,
+      "llm_score": 3,
+      "llm_reason": "Complete meaning preserved despite the omission of 'al' and the change in verb form."
+    },
+    {
+      "item": 27,
+      "target": "Le pedí a un amigo que me ayudara con la tarea",
+      "transcription": "Le pedí a un amigo que me ayudara con la tarea",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    },
+    {
+      "item": 28,
+      "target": "El examen no fue tan difícil como me habían dicho",
+      "transcription": "El examen no fue tan dificil como me decían",
+      "rule_score": 2,
+      "llm_score": 3,
+      "llm_reason": "Complete meaning preserved. The learner's response maintains the overall meaning, with minor grammatical changes ('decían' instead of 'habían dicho') that do not affect the meaning."
+    },
+    {
+      "item": 29,
+      "target": "Serías tan amable de darme el libro que está en la mesa",
+      "transcription": "Serías tan amable pa'- darme el libro que está en la mesa?",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    },
+    {
+      "item": 30,
+      "target": "Hay mucha gente que no toma nada para el desayuno",
+      "transcription": "Hay mucha genta que no to- toma nada para el desayuno.",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    }
+  ],
+  "38002-2A": [
+    {
+      "item": 1,
+      "target": "Quiero cortarme el pelo",
+      "transcription": "Quiero cortarme el pelo",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    },
+    {
+      "item": 2,
+      "target": "El libro está en la mesa",
+      "transcription": "El libro está en la mesa.",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    },
+    {
+      "item": 3,
+      "target": "El carro lo tiene Pedro",
+      "transcription": "El carro tiene pelo.",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. The subject and verb are present, but the meaning is significantly altered with 'pelo' instead of 'Pedro', leading to a lack of important information."
+    },
+    {
+      "item": 4,
+      "target": "El se ducha cada mañana",
+      "transcription": "él se ducha cada mañana",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    },
+    {
+      "item": 5,
+      "target": "Qué dice usted que va a hacer hoy",
+      "transcription": "en que ustedes x uf x hacer hoy?",
+      "rule_score": 2,
+      "llm_score": 0,
+      "llm_reason": "The response is garbled and unintelligible, with no meaningful preservation of the original sentence."
+    },
+    {
+      "item": 6,
+      "target": "Dudo que sepa manejar muy bien",
+      "transcription": "dudo/tu no? sepiar exx muy bien",
+      "rule_score": 1,
+      "llm_score": 0,
+      "llm_reason": "The response is unintelligible and does not convey the meaning of the target sentence."
+    },
+    {
+      "item": 7,
+      "target": "Las calles de esta ciudad son muy anchas",
+      "transcription": "La calles estén xxxx muy anchas.",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only a partial idea is represented; 'La calles' is incorrect and does not convey the full meaning of the original sentence."
+    },
+    {
+      "item": 8,
+      "target": "Puede que llueva mañana todo el día",
+      "transcription": "Puede que mañana todo la día",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea of the original sentence but omits 'llueva' (it may rain) and has a grammatical error with 'la' instead of 'el' for 'día', making the meaning incomplete."
+    },
+    {
+      "item": 9,
+      "target": "Las casas son muy bonitas pero caras",
+      "transcription": "Las casas muy bonitos pero ... casas",
+      "rule_score": 3,
+      "llm_score": 1,
+      "llm_reason": "Only part of the idea is represented; important information is missing, and the response does not form a complete sentence."
+    },
+    {
+      "item": 10,
+      "target": "Me gustan las películas que acaban bien",
+      "transcription": "Me gustan las películas campan bien",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea of liking movies, but 'campan' is incorrect and alters the meaning, making it ambiguous."
+    },
+    {
+      "item": 11,
+      "target": "El chico con el que yo salgo es español",
+      "transcription": "el chico con ... español",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented, missing key information about the relationship and the action."
+    },
+    {
+      "item": 12,
+      "target": "Después de cenar me fui a dormir tranquilo",
+      "transcription": "después de finar ... él dormir xxx",
+      "rule_score": 1,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. Important information is missing, and the response does not constitute a self-standing sentence."
+    },
+    {
+      "item": 13,
+      "target": "Quiero una casa en la que vivan mis animales",
+      "transcription": "Quiere una casa con animales",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. The response misses key information about the animals living in the house and changes the meaning."
+    },
+    {
+      "item": 14,
+      "target": "A nosotros nos fascinan las fiestas grandiosas",
+      "transcription": "a nosotros fana-xxx fiestas grandinosas",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the idea of being fascinated by parties but has significant inaccuracies in verb form and adjective agreement."
+    },
+    {
+      "item": 15,
+      "target": "Ella sólo bebe cerveza y no come nada",
+      "transcription": "Ella xxx no beber querer",
+      "rule_score": 1,
+      "llm_score": 0,
+      "llm_reason": "Response is unintelligible and does not represent the meaning of the target sentence."
+    },
+    {
+      "item": 16,
+      "target": "Me gustaría que el precio de las casas bajara",
+      "transcription": "Me gusta el casa xxx...",
+      "rule_score": 1,
+      "llm_score": 0,
+      "llm_reason": "Response is unintelligible and does not preserve any meaningful content from the target sentence."
+    },
+    {
+      "item": 17,
+      "target": "Cruza a la derecha y después sigue todo recto",
+      "transcription": "en quises a la derecha xxx...",
+      "rule_score": 1,
+      "llm_score": 0,
+      "llm_reason": "Response is unintelligible and does not preserve any meaning from the target sentence."
+    },
+    {
+      "item": 18,
+      "target": "Ella ha terminado de pintar su apartamento",
+      "transcription": "Ella tiene termino xx apartamento",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. Important information like 'ha terminado de pintar' is missing, and the response does not constitute a self-standing sentence."
+    },
+    {
+      "item": 19,
+      "target": "Me gustaría que empezara a hacer más calor pronto",
+      "transcription": "Me gusta que d-crxxx calor pranto",
+      "rule_score": 1,
+      "llm_score": 0,
+      "llm_reason": "The response is unintelligible and does not convey the meaning of the target sentence."
+    },
+    {
+      "item": 20,
+      "target": "El niño al que se le murió el gato está triste",
+      "transcription": "El niño se murió el gato y triste",
+      "rule_score": 3,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. The response misses the key elements of the original sentence, such as the context of the cat's death and the specific structure."
+    },
+    {
+      "item": 21,
+      "target": "Una amiga mía cuida a los niños de mi vecino",
+      "transcription": "Una amigo que niña ha cuidado",
+      "rule_score": 0,
+      "llm_score": 1,
+      "llm_reason": "Only a few idea units are represented, and the response is incomplete and ambiguous."
+    },
+    {
+      "item": 22,
+      "target": "El gato que era negro fue perseguido por el perro",
+      "transcription": "El gato negro se fuera el perro son",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. The response is incomplete and does not convey the full meaning of the original sentence."
+    },
+    {
+      "item": 23,
+      "target": "Antes de poder salir él tiene que limpiar su cuarto",
+      "transcription": "Antes de salir limpio.. el caso",
+      "rule_score": 1,
+      "llm_score": 1,
+      "llm_reason": "Only a partial idea is represented; important information about 'él', 'tiene que', and 'limpiar su cuarto' is missing."
+    },
+    {
+      "item": 24,
+      "target": "La cantidad de personas que fuman ha disminuido",
+      "transcription": "la cantidad de las personas fe-xxx fumar",
+      "rule_score": 2,
+      "llm_score": 0,
+      "llm_reason": "The response is unintelligible and does not convey the meaning of the target sentence."
+    },
+    {
+      "item": 25,
+      "target": "Después de llegar a casa del trabajo tomé la cena",
+      "transcription": "Después de llegar la casa pone cena",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. Important information is missing, such as 'del trabajo' and 'tomé'."
+    },
+    {
+      "item": 26,
+      "target": "El ladrón al que atrapó la policía era famoso",
+      "transcription": "El xxx la policía es famoso",
+      "rule_score": 1,
+      "llm_score": 1,
+      "llm_reason": "Only part of the idea is represented; important information about the thief and the action of being caught is missing."
+    },
+    {
+      "item": 27,
+      "target": "Le pedí a un amigo que me ayudara con la tarea",
+      "transcription": "Le pedí un amigo con ayuda con mí tarea",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. Important information is missing, such as 'que me ayudara' and the structure is incorrect."
+    },
+    {
+      "item": 28,
+      "target": "El examen no fue tan difícil como me habían dicho",
+      "transcription": "El examen no es difícil cuando me xxx...",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only part of the idea is represented; the response does not convey the comparison or the past tense aspect of the original sentence."
+    },
+    {
+      "item": 29,
+      "target": "Serías tan amable de darme el libro que está en la mesa",
+      "transcription": "El libro están en la mesa.",
+      "rule_score": 1,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. The response misses the request and the conditional 'serías tan amable de darme'."
+    },
+    {
+      "item": 30,
+      "target": "Hay mucha gente que no toma nada para el desayuno",
+      "transcription": "Hay mucho gente no quiere desayuno",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only about half of idea units represented. Important information about taking nothing for breakfast is missing, and the sentence does not constitute a self-standing sentence."
+    }
+  ],
+  "38004-2A": [
+    {
+      "item": 1,
+      "target": "Quiero cortarme el pelo",
+      "transcription": "Quiero cortarme el pelo",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    },
+    {
+      "item": 2,
+      "target": "El libro está en la mesa",
+      "transcription": "El libro está en la mesa",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    },
+    {
+      "item": 3,
+      "target": "El carro lo tiene Pedro",
+      "transcription": "El carro tiene Pedro",
+      "rule_score": 3,
+      "llm_score": 3,
+      "llm_reason": "Complete meaning preserved; the omission of 'lo' does not affect the overall meaning."
+    },
+    {
+      "item": 4,
+      "target": "El se ducha cada mañana",
+      "transcription": "El se ducha cada mañana",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    },
+    {
+      "item": 5,
+      "target": "Qué dice usted que va a hacer hoy",
+      "transcription": "¿Qué dices usted vas hacer hoy?",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea but has grammatical errors and missing elements, making the meaning slightly ambiguous."
+    },
+    {
+      "item": 6,
+      "target": "Dudo que sepa manejar muy bien",
+      "transcription": "Dudo que sepa manejar muy bien",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    },
+    {
+      "item": 7,
+      "target": "Las calles de esta ciudad son muy anchas",
+      "transcription": "Las calles de esta ciudad es muy anchas",
+      "rule_score": 4,
+      "llm_score": 3,
+      "llm_reason": "Complete meaning preserved despite the grammatical error ('es' instead of 'son')."
+    },
+    {
+      "item": 8,
+      "target": "Puede que llueva mañana todo el día",
+      "transcription": "Pueda que llueva mañana todo día",
+      "rule_score": 3,
+      "llm_score": 3,
+      "llm_reason": "Complete meaning preserved. The change from 'puede' to 'pueda' does not affect the overall meaning."
+    },
+    {
+      "item": 9,
+      "target": "Las casas son muy bonitas pero caras",
+      "transcription": "Las casas son muy bonitas para caras",
+      "rule_score": 4,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea that the houses are beautiful but changes 'pero' to 'para', which alters the meaning."
+    },
+    {
+      "item": 10,
+      "target": "Me gustan las películas que acaban bien",
+      "transcription": "Mis gus..Me gustas las películas que cada bien",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea of liking movies, but the phrase 'cada bien' is incorrect and alters the meaning, making it ambiguous."
+    },
+    {
+      "item": 11,
+      "target": "El chico con el que yo salgo es español",
+      "transcription": "El chico con esolago(es yo algo?) es español",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. The response is incomplete and contains significant errors."
+    },
+    {
+      "item": 12,
+      "target": "Después de cenar me fui a dormir tranquilo",
+      "transcription": "Después de cenar fui a dormir tranquilo",
+      "rule_score": 4,
+      "llm_score": 3,
+      "llm_reason": "Complete meaning preserved. The omission of 'me' does not affect the overall meaning."
+    },
+    {
+      "item": 13,
+      "target": "Quiero una casa en la que vivan mis animales",
+      "transcription": "Queda una ca..Quiere una casa en queda mis animales...mis animales quedan",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. The response is fragmented and lacks important information, making it unclear."
+    },
+    {
+      "item": 14,
+      "target": "A nosotros nos fascinan las fiestas grandiosas",
+      "transcription": "A nosotros fascinmas festivales",
+      "rule_score": 1,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. Important information is missing, such as 'nos' and 'grandiosas', and 'fiestas' is incorrectly replaced with 'festivales'."
+    },
+    {
+      "item": 15,
+      "target": "Ella sólo bebe cerveza y no come nada",
+      "transcription": "Ella sólo cerveza y como nada",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "The response is missing the verb 'bebe' and the conjunction 'y' is incorrectly used, leading to significant loss of meaning."
+    },
+    {
+      "item": 16,
+      "target": "Me gustaría que el precio de las casas bajara",
+      "transcription": "Me gustaría que los precios de la casa bajara",
+      "rule_score": 3,
+      "llm_score": 3,
+      "llm_reason": "Complete meaning preserved despite minor grammatical changes (plural vs singular) and a slight alteration in the noun form."
+    },
+    {
+      "item": 17,
+      "target": "Cruza a la derecha y después sigue todo recto",
+      "transcription": "Sigue a la derecha y cruzo a la directo..y sique a la directo",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "The response preserves some meaning but is incomplete and contains inaccuracies. Key elements like 'después' and 'todo recto' are missing, and there are grammatical errors."
+    },
+    {
+      "item": 18,
+      "target": "Ella ha terminado de pintar su apartamento",
+      "transcription": "Ella se terminar pintar su apartamento",
+      "rule_score": 3,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. The verb form is incorrect and important information is missing."
+    },
+    {
+      "item": 19,
+      "target": "Me gustaría que empezara a hacer más calor pronto",
+      "transcription": "Me gustaría hacer..xx calores pronto",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only a partial idea is represented; important information is missing, and the response does not form a complete sentence."
+    },
+    {
+      "item": 20,
+      "target": "El niño al que se le murió el gato está triste",
+      "transcription": "El niño que se murió su gato es triste",
+      "rule_score": 3,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea of the child being sad, but it inaccurately conveys that the child died instead of the cat, leading to a significant change in meaning."
+    },
+    {
+      "item": 21,
+      "target": "Una amiga mía cuida a los niños de mi vecino",
+      "transcription": "Una amiga mía cuidado a los vecinos",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. Important information is missing, such as 'cuida a los niños' and the correct verb form."
+    },
+    {
+      "item": 22,
+      "target": "El gato que era negro fue perseguido por el perro",
+      "transcription": "El gato que es negro... [cough]...",
+      "rule_score": 1,
+      "llm_score": 1,
+      "llm_reason": "Only part of the idea is represented; the response is incomplete and does not form a self-standing sentence."
+    },
+    {
+      "item": 23,
+      "target": "Antes de poder salir él tiene que limpiar su cuarto",
+      "transcription": "Antes de salir tienes xxx cu-cuarto",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. Important information is missing, and the response does not constitute a complete sentence."
+    },
+    {
+      "item": 24,
+      "target": "La cantidad de personas que fuman ha disminuido",
+      "transcription": "La cantidad de personas que fu-han fumado se distruy...",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. The response includes a significant change in verb tense and introduces unrelated content, making the meaning unclear."
+    },
+    {
+      "item": 25,
+      "target": "Después de llegar a casa del trabajo tomé la cena",
+      "transcription": "Después de llegar a-de trabajo cena a mi casa",
+      "rule_score": 3,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea but has a significant reordering of elements and omits 'tomé' (I had), making it incomplete."
+    },
+    {
+      "item": 26,
+      "target": "El ladrón al que atrapó la policía era famoso",
+      "transcription": "La ladrón que atropó la policía es famoso",
+      "rule_score": 3,
+      "llm_score": 2,
+      "llm_reason": "The response preserves some meaning but has significant inaccuracies, such as 'La' instead of 'El', 'atropó' instead of 'atrapó', and changes the tense from past to present."
+    },
+    {
+      "item": 27,
+      "target": "Le pedí a un amigo que me ayudara con la tarea",
+      "transcription": "Le pedí un amigo que me ayuda con la tarea",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea of asking a friend for help with homework, but it has grammatical errors ('un amigo' instead of 'a un amigo' and 'me ayuda' instead of 'me ayudara') that affect clarity."
+    },
+    {
+      "item": 28,
+      "target": "El examen no fue tan difícil como me habían dicho",
+      "transcription": "El examen no ..a..va a..fue a tan difícil",
+      "rule_score": 2,
+      "llm_score": 0,
+      "llm_reason": "The response is garbled and unintelligible, failing to convey any meaningful content from the target sentence."
+    },
+    {
+      "item": 29,
+      "target": "Serías tan amable de darme el libro que está en la mesa",
+      "transcription": "Sales de donde está mi libro en está mesa",
+      "rule_score": 1,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. The response conveys a request related to a book but misses key elements and alters the meaning significantly."
+    },
+    {
+      "item": 30,
+      "target": "Hay mucha gente que no toma nada para el desayuno",
+      "transcription": "Hay mucha gente que no toma tiempo para desayuno",
+      "rule_score": 3,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea of many people not taking something for breakfast, but it incorrectly substitutes 'nada' (nothing) with 'tiempo' (time), which changes the meaning."
+    }
+  ],
+  "38006-2A": [
+    {
+      "item": 1,
+      "target": "Quiero cortarme el pelo",
+      "transcription": "Quiero cortarme mi pelo",
+      "rule_score": 4,
+      "llm_score": 3,
+      "llm_reason": "Complete meaning preserved. The change from 'el' to 'mi' does not affect the overall meaning."
+    },
+    {
+      "item": 2,
+      "target": "El libro está en la mesa",
+      "transcription": "El libro [pause] está en la mesa",
+      "rule_score": 4,
+      "llm_score": 4,
+      "llm_reason": "Exact repetition. Form and meaning both correct without exception."
+    },
+    {
+      "item": 3,
+      "target": "El carro lo tiene Pedro",
+      "transcription": "E-[gibberish] perro",
+      "rule_score": 0,
+      "llm_score": 0,
+      "llm_reason": "Response is unintelligible and does not convey any meaningful information from the target sentence."
+    },
+    {
+      "item": 4,
+      "target": "El se ducha cada mañana",
+      "transcription": "El se lucha cada mañana",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the idea of a daily routine but changes 'ducha' (to shower) to 'lucha' (to fight), which alters the meaning significantly."
+    },
+    {
+      "item": 5,
+      "target": "Qué dice usted que va a hacer hoy",
+      "transcription": "¿Qué [gibberish] que vas estoy?",
+      "rule_score": 0,
+      "llm_score": 0,
+      "llm_reason": "Response is unintelligible and does not convey the meaning of the target sentence."
+    },
+    {
+      "item": 6,
+      "target": "Dudo que sepa manejar muy bien",
+      "transcription": "Dudo que sepa ma-mastar tan bien (tambien?)",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea of doubt and the action of driving, but the verb 'manejar' is incorrectly substituted with 'ma-mastar', and 'muy' is replaced with 'tan', which alters the meaning slightly."
+    },
+    {
+      "item": 7,
+      "target": "Las calles de esta ciudad son muy anchas",
+      "transcription": "Las calles..es-[gibberish]...",
+      "rule_score": 0,
+      "llm_score": 0,
+      "llm_reason": "Response is unintelligible and does not convey any meaningful content."
+    },
+    {
+      "item": 8,
+      "target": "Puede que llueva mañana todo el día",
+      "transcription": "Puede xxx mañana de todo día",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. Important information like 'llueva' and 'todo el día' is missing, making the string incomplete."
+    },
+    {
+      "item": 9,
+      "target": "Las casas son muy bonitas pero caras",
+      "transcription": "A las casa es mu-son bonitas",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. The response is incomplete and does not convey the full meaning of the original sentence."
+    },
+    {
+      "item": 10,
+      "target": "Me gustan las películas que acaban bien",
+      "transcription": "Me gusta las películas que x bien",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "The response preserves the main idea about liking movies that end well, but the verb 'gustan' is incorrectly changed to 'gusta', affecting the grammatical accuracy."
+    },
+    {
+      "item": 11,
+      "target": "El chico con el que yo salgo es español",
+      "transcription": "El chico con es el algo (xxx?) es español",
+      "rule_score": 3,
+      "llm_score": 1,
+      "llm_reason": "Only a few idea units are represented, and the response is incomplete and unclear."
+    },
+    {
+      "item": 12,
+      "target": "Después de cenar me fui a dormir tranquilo",
+      "transcription": "Después de fenar mi fui a tranquilo",
+      "rule_score": 3,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. Important information is missing, such as 'cenar' (to have dinner) and 'dormir' (to sleep), making the string incomplete."
+    },
+    {
+      "item": 13,
+      "target": "Quiero una casa en la que vivan mis animales",
+      "transcription": "Quienen que en el casa ...muchos animales",
+      "rule_score": 1,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. The response is incomplete and does not convey the full meaning of the original sentence."
+    },
+    {
+      "item": 14,
+      "target": "A nosotros nos fascinan las fiestas grandiosas",
+      "transcription": "A nosotros fanimos [pause] fiestas grandiosas",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "More than half of idea units preserved, but the verb is incorrect and the subject pronoun is missing."
+    },
+    {
+      "item": 15,
+      "target": "Ella sólo bebe cerveza y no come nada",
+      "transcription": "Ella bebidas cerviamos y no comidas",
+      "rule_score": 1,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. The response contains significant errors in verb forms and nouns, leading to a lack of clarity in meaning."
+    },
+    {
+      "item": 16,
+      "target": "Me gustaría que el precio de las casas bajara",
+      "transcription": "Me gustaría ser..ella...mhh..",
+      "rule_score": 1,
+      "llm_score": 0,
+      "llm_reason": "Response is unintelligible and does not preserve any meaning from the target sentence."
+    },
+    {
+      "item": 17,
+      "target": "Cruza a la derecha y después sigue todo recto",
+      "transcription": "Cruze a la derecha de siguelo",
+      "rule_score": 1,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. Important information is missing, and the response does not constitute a self-standing sentence."
+    },
+    {
+      "item": 18,
+      "target": "Ella ha terminado de pintar su apartamento",
+      "transcription": "Ella terminado pintar a sus apartmento",
+      "rule_score": 3,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. Important information is missing, such as the auxiliary verb 'ha' and the preposition 'de', making the sentence incomplete."
+    },
+    {
+      "item": 19,
+      "target": "Me gustaría que empezara a hacer más calor pronto",
+      "transcription": "Me gustaría se..[pause] xxx pronto",
+      "rule_score": 1,
+      "llm_score": 1,
+      "llm_reason": "Only a partial idea is represented; important information about starting to get warmer is missing."
+    },
+    {
+      "item": 20,
+      "target": "El niño al que se le murió el gato está triste",
+      "transcription": "El niño se murió el gato es muy triste",
+      "rule_score": 3,
+      "llm_score": 1,
+      "llm_reason": "The response conveys some elements of the original sentence but misses key information, such as the context of the cat's death and the correct structure. It does not represent a complete or coherent idea."
+    },
+    {
+      "item": 21,
+      "target": "Una amiga mía cuida a los niños de mi vecino",
+      "transcription": "Una mía amiga cuidado a sus niños",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "The response preserves some key elements of the original meaning, but it is incomplete and contains inaccuracies, such as incorrect word order and substitution of 'sus' for 'los'."
+    },
+    {
+      "item": 22,
+      "target": "El gato que era negro fue perseguido por el perro",
+      "transcription": "El gato-el gato quien era el nego de perro",
+      "rule_score": 3,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. Important information is missing, and the response does not constitute a self-standing sentence."
+    },
+    {
+      "item": 23,
+      "target": "Antes de poder salir él tiene que limpiar su cuarto",
+      "transcription": "Antes de podai e salir..[pause] antes de xxx",
+      "rule_score": 1,
+      "llm_score": 0,
+      "llm_reason": "Response is unintelligible and does not convey any meaningful content."
+    },
+    {
+      "item": 24,
+      "target": "La cantidad de personas que fuman ha disminuido",
+      "transcription": "A la cantan... [pause] muy a xxx",
+      "rule_score": 0,
+      "llm_score": 0,
+      "llm_reason": "Response is unintelligible and does not convey any meaningful content related to the target sentence."
+    },
+    {
+      "item": 25,
+      "target": "Después de llegar a casa del trabajo tomé la cena",
+      "transcription": "Después de llegar [pause] al trabajo...",
+      "rule_score": 2,
+      "llm_score": 1,
+      "llm_reason": "Only part of the idea is represented, missing key information about 'casa' and 'tomé la cena', making it incomplete."
+    },
+    {
+      "item": 26,
+      "target": "El ladrón al que atrapó la policía era famoso",
+      "transcription": "X- ladróna(?)de policio que es famoso",
+      "rule_score": 1,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. Important information is missing, and the response does not constitute a self-standing sentence."
+    },
+    {
+      "item": 27,
+      "target": "Le pedí a un amigo que me ayudara con la tarea",
+      "transcription": "Que ped-x una amigo [pause] a su tarea",
+      "rule_score": 1,
+      "llm_score": 1,
+      "llm_reason": "Only about half of the idea units are represented. Important information is missing, and the response does not constitute a self-standing sentence."
+    },
+    {
+      "item": 28,
+      "target": "El examen no fue tan difícil como me habían dicho",
+      "transcription": "El examen no difícil.. [pause]... [gibberish]",
+      "rule_score": 2,
+      "llm_score": 0,
+      "llm_reason": "Response is unintelligible and does not convey the meaning of the target sentence."
+    },
+    {
+      "item": 29,
+      "target": "Serías tan amable de darme el libro que está en la mesa",
+      "transcription": "El libro que está en la mesa",
+      "rule_score": 2,
+      "llm_score": 2,
+      "llm_reason": "More than half of the idea units are preserved, but the request aspect ('Serías tan amable de darme') is missing, making the meaning incomplete."
+    },
+    {
+      "item": 30,
+      "target": "Hay mucha gente que no toma nada para el desayuno",
+      "transcription": "A mucha gente xxx...",
+      "rule_score": 1,
+      "llm_score": 0,
+      "llm_reason": "Response is unintelligible and does not convey any meaningful information from the target sentence."
+    }
+  ]
+}

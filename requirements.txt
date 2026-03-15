@@ -9,3 +9,5 @@ openpyxl
 pandas
 numpy
 python-Levenshtein
+openai
+python-dotenv
