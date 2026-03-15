@@ -1,117 +1,181 @@
-# AutoEIT: Automated Transcription of Spanish EIT Learner Audio
+# AutoEIT: Automated Transcription and Scoring of Spanish EIT Learner Audio
 
-## Introduction
+## Overview
 
-This project implements an automated transcription pipeline for Spanish Elicited Imitation Task (EIT) audio recordings. The EIT is a sentence-repetition task used to assess second language proficiency: learners listen to a target sentence in Spanish and attempt to repeat it. The challenge is that standard speech-to-text systems are optimized for native speakers and perform poorly on non-native speech, which features phonological variation, disfluencies, incomplete productions, and transfer effects from the learner's first language.
+This project implements two automated pipelines for the Spanish Elicited Imitation Task (EIT):
 
-The pipeline takes raw audio recordings of EIT sessions and produces per-sentence transcriptions suitable for subsequent scoring.
+1. **Test I — Audio-to-text transcription:** Converts raw EIT audio recordings into per-sentence transcriptions
+2. **Test II — Automated scoring:** Applies the Ortega (2000) meaning-based rubric (0–4 scale) to score learner transcriptions
 
-## Approach
+Both pipelines are designed to handle the unique challenges of non-native learner speech: phonological variation, disfluencies, incomplete productions, and transfer effects from the learner's first language.
 
-### Model Selection
+---
 
-I used OpenAI's Whisper, an open-source multilingual ASR model trained on 680,000 hours of audio. Whisper was chosen for several reasons:
+## Test I: Audio-to-Text Transcription
 
-- Strong multilingual support including Spanish
-- Better handling of accented and non-native speech compared to most commercial APIs
-- Free and open-source, making it scalable to large datasets
-- Multiple model sizes allowing speed/accuracy tradeoffs
+### Approach
 
-I tested both `medium` (769M parameters) and `large-v3` (1.5B parameters). Both produce comparable results for higher-proficiency learners, but neither handles very low-proficiency speech well.
+**Model:** OpenAI Whisper (`large-v3`), chosen for its strong multilingual support and better handling of accented/non-native speech compared to commercial APIs.
 
-### Pipeline Overview
+**Pipeline stages:**
+1. **Transcription** — Whisper ASR with parameters optimized for learner speech
+2. **Post-processing** — Levenshtein similarity-based matching of segments to target sentences
+3. **Output** — Results written to the provided Excel template
 
-The pipeline has three stages:
+**Key configuration choices:**
+- `language="es"` — Forces Spanish to prevent language-switching on accented speech
+- `condition_on_previous_text=False` — Prevents hallucinations from cascading across segments
+- `no_speech_threshold=0.6`, `logprob_threshold=-0.5`, `compression_ratio_threshold=2.0` — Aggressively filters hallucinated text during silence
+- Per-participant skip times to bypass the English instruction period
 
-**1. Transcription** — Each audio file is passed through Whisper with the following configuration:
-- Language forced to Spanish (`language="es"`) to prevent the model from switching to English during accented speech
-- `condition_on_previous_text=False` to prevent hallucinations from propagating across segments
-- `no_speech_threshold=0.6`, `logprob_threshold=-0.5`, and `compression_ratio_threshold=2.0` to aggressively filter hallucinated text during silent portions
-- A per-participant skip time to bypass the English instruction period at the start of each recording
+### Challenges
 
-**2. Segment-to-item matching** — Whisper outputs variable-length segments that don't map 1:1 to the 30 EIT items. I use normalized Levenshtein similarity to match each segment to its closest target sentence, then apply greedy assignment so each target gets exactly one transcription.
+**Hallucination during silence:** Without filtering, Whisper generated repeated tokens ("Gracias"), Korean/Russian characters, and nonsense text during inter-item silence. The filtering parameters largely solved this.
 
-**3. Excel output** — Matched transcriptions are written into the provided Excel template in column C.
+**Stimulus vs. learner separation:** Each item contains both the pre-recorded stimulus and the learner's response. Energy-based separation (RMS volume) was unreliable due to overlapping volume ranges. Perfect-match transcriptions (similarity ≥ 0.95) remain ambiguous.
 
-### Key Design Decisions
+**Very low proficiency (038012):** Audio analysis revealed no response for ~8 of 30 items. Where the learner did respond, speech was too fragmentary for Whisper, producing hallucinated output. This is a fundamental ASR limitation.
 
-**Forcing Spanish language:** Auto-detection would risk classifying heavily accented learner speech as English or another language. Forcing Spanish ensures consistent transcription even when the learner's production is heavily influenced by L1 transfer.
+**Segment alignment:** Whisper occasionally merges two items into one segment or splits one across multiple segments. The matching algorithm handles most cases but occasionally misassigns.
 
-**Disabling context conditioning:** Whisper's default behavior feeds previous transcription into the next segment as context. For EIT data, this causes hallucinations to snowball — a single misheard word during silence produces cascading errors. Disabling this trades some contextual coherence for much better robustness.
-
-**Greedy matching over sequential assignment:** I initially tried sequential approaches (assigning segments in time order), but Whisper sometimes merges two items into one segment or splits one item across multiple segments. Similarity-based matching handles these edge cases more robustly.
-
-## Challenges
-
-### 1. Hallucination During Silence
-
-EIT recordings contain long silent periods while the learner listens to the next stimulus. Whisper is known to hallucinate text during silence — in my initial baseline run, the model produced repeated "Gracias" tokens during the instruction period, and generated Korean, Russian, and nonsense text during inter-item silences. The aggressive filtering parameters largely solved this, but some hallucinated content still appears for the most difficult recordings.
-
-### 2. Stimulus vs. Learner Separation
-
-Each EIT item contains two utterances: the pre-recorded stimulus and the learner's repetition attempt. The pipeline needs to transcribe only the learner. I explored energy-based segmentation (using RMS volume differences) to separate them, but the approach was unreliable — learner volume varied widely across participants and items, with significant overlap between stimulus and learner energy levels.
-
-In practice, Whisper often transcribes only one of the two utterances per item. For higher-proficiency learners, it tends to capture the learner's version (identifiable by systematic errors). For ambiguous cases where the transcription matches the target perfectly (similarity = 1.0), it's unclear whether Whisper captured the stimulus or whether the learner repeated perfectly.
-
-### 3. Very Low Proficiency Speech (Participant 038012)
-
-Participant 038012 represents the hardest case: very low proficiency with minimal intelligible production. Audio analysis revealed that this participant produced no response at all for approximately 8 of the 30 items. For items where they did respond, their production was often so fragmentary that Whisper could not resolve it into coherent Spanish, producing hallucinated output in other languages or nonsense tokens. This is a fundamental limitation of current ASR technology when applied to speech that falls below a minimum intelligibility threshold.
-
-### 4. Segment Alignment
-
-Whisper's segmentation doesn't always align with item boundaries. Sometimes two items are merged into a single segment (e.g., participant 038015, item 19 contains both item 18 and 19 text). Other times a single item is split across multiple segments. The matching algorithm handles most of these cases, but imperfect alignment occasionally leads to wrong assignments.
-
-## Evaluation
-
-### Methodology
-
-I evaluate transcription quality by comparing ASR output against the target sentences using normalized Levenshtein similarity. While the ideal evaluation would compare against human reference transcriptions (not available for this test), similarity to the target still provides useful signal:
-
-- **High similarity (>0.90):** The learner repeated accurately, or Whisper captured the stimulus
-- **Medium similarity (0.50–0.90):** Clear learner errors captured — the most informative range
-- **Low similarity (<0.50):** Significant learner difficulty, possible ASR errors, or misalignment
-
-### Results by Participant
+### Results
 
 | Participant | Segments | Matched | Avg Similarity | Assessment |
 |---|---|---|---|---|
-| 038015 | 28 | 28/30 | ~0.82 | Best result. Clear learner errors captured. |
+| 038015 | 28 | 28/30 | ~0.82 | Best. Clear learner errors captured. |
 | 038011 | 38 | 30/30 | ~0.78 | Good. Some wrong matches for hardest items. |
 | 038010 | 42 | 30/30 | ~0.85 | Mixed. Many perfect matches may be stimuli. |
 | 038012 | 42 | 29/30 | ~0.45 | Poor. ASR breaks down at very low proficiency. |
 
-### Error Categories
+### Usage
 
-Errors fall into several categories:
+```bash
+python run_pipeline.py
+```
 
-- **Correct learner transcription:** ASR accurately captures what the learner said, including their errors (e.g., "El carro no tiene pelo" for target "El carro lo tiene Pedro"). These are successes.
-- **Stimulus capture:** ASR transcribes the pre-recorded stimulus instead of the learner. Indistinguishable from a perfect learner repetition without additional analysis.
-- **ASR errors on learner speech:** ASR mishears the learner's production (e.g., "publicidad" for "policía"). These reduce transcription accuracy.
-- **Hallucination:** ASR generates text not present in the audio. Most common during silence or with very low-proficiency speakers.
-- **Misalignment:** A correct transcription is assigned to the wrong item number.
+Output: `output/AutoEIT_Transcriptions_Complete.xlsx`
+
+---
+
+## Test II: Automated Scoring
+
+### Approach
+
+I implemented two complementary scoring approaches and compared them:
+
+#### 1. Rule-Based Scoring (`src/score_rules.py`)
+
+A custom algorithm that scores responses using:
+- **Content word overlap** — fraction of target content words found in the response (with fuzzy matching via Levenshtein distance to handle pronunciation variants like "manajar" → "manejar")
+- **Levenshtein similarity** — overall string-level similarity after normalization
+- **Response length** — to distinguish minimal responses (score 0) from partial ones (score 1)
+
+Key implementation details:
+- **Accent stripping** via Unicode normalization ("películas" == "peliculas")
+- **False-friend detection** to prevent incorrect fuzzy matches (e.g., "ducha" ≠ "lucha" despite high character similarity)
+- **Annotation cleaning** — removes [pause], [gibberish], xxx, false starts, and other transcription markers before scoring
+- Threshold-based assignment to rubric levels (0–4)
+
+#### 2. LLM-Based Scoring (`src/score_llm.py`)
+
+Uses GPT-4o-mini with the full Ortega (2000) rubric as a system prompt. Each stimulus-response pair is sent individually with instructions to return a score and brief reasoning. Temperature is set to 0.0 for deterministic output.
+
+### Comparison Results
+
+| Participant | Rule Avg | LLM Avg | Exact Match | Within 1 Point |
+|---|---|---|---|---|
+| 38001-1A | 3.07 | 2.90 | 63% | 87% |
+| 38004-2A | 2.63 | 2.00 | 47% | 90% |
+| 38002-2A | 1.90 | 1.17 | 33% | 87% |
+| 38006-2A | 1.73 | 1.10 | 57% | 80% |
+
+**Key findings:**
+- Both approaches correctly rank participants by proficiency level (38001 > 38004 > 38002 > 38006)
+- The LLM scores consistently lower (stricter meaning interpretation)
+- Within-1-point agreement is 80–90%, indicating both methods track the same patterns
+- The biggest disagreements occur on borderline 2/3 cases — the same boundary where human raters also disagree
+- The LLM provides reasoning for each score, which is valuable for transparency and debugging
+
+**Tradeoffs:**
+
+| | Rule-Based | LLM-Based |
+|---|---|---|
+| Speed | Fast (milliseconds per item) | Slow (1-2s per item, API calls) |
+| Cost | Free | ~$0.50 per 120 items |
+| Reproducibility | Fully deterministic | Near-deterministic (temp=0) |
+| Nuance | Limited to word overlap heuristics | Understands semantic meaning |
+| Transparency | Explainable via metrics | Provides natural language reasoning |
+
+### Challenges
+
+**Borderline cases (2 vs. 3):** The rubric itself acknowledges ambiguity: "as a general principle in case of doubt about whether meaning has changed or not, score 2." Both automated approaches struggle here, as do human raters.
+
+**Transcription annotations:** Human transcriptions use varied notation ([gibberish], xxx, .., false starts with -). Robust cleaning is essential — missed annotations inflate content overlap scores.
+
+**Semantic understanding:** The rule-based approach cannot determine whether a grammatical change alters meaning (e.g., "para caras" vs. "pero caras" — substituting "for" for "but" changes meaning, but both are function words). The LLM handles this better.
+
+### Usage
+
+```bash
+# Rule-based scoring
+python run_scoring.py
+
+# LLM-based scoring (requires OpenAI API key in .env)
+python run_scoring_llm.py
+```
+
+Output: `output/AutoEIT_Scores_Complete.xlsx` and `output/scores_comparison.json`
+
+---
 
 ## Future Improvements
 
-### Short-term (within project scope)
+### Transcription (Test I)
+- **WhisperX** for word-level timestamps and better segment boundaries
+- **Spectral features** (not just RMS energy) to classify stimulus vs. learner
+- **Fine-tuning** Whisper on human-transcribed learner speech data
+- **Confidence-based flagging** to route low-confidence items to human review
 
-- **Segment-level audio analysis:** Use spectral features (not just RMS energy) to classify each segment as stimulus or learner. The pre-recorded stimulus likely has different frequency characteristics from live ambient speech.
-- **WhisperX for word-level timestamps:** Would enable more precise segment boundaries and better stimulus/learner separation.
-- **Confidence-based flagging:** Use Whisper's `no_speech_prob` and `avg_logprob` scores to automatically flag low-confidence transcriptions for human review.
+### Scoring (Test II)
+- **Calibration** against human rater scores to tune rule-based thresholds
+- **Ensemble approach** — combine rule-based and LLM scores (e.g., average, or use LLM only for borderline cases)
+- **Fine-tuning** a smaller LLM on scored EIT data to reduce API costs while maintaining quality
+- **Inter-rater reliability metrics** (Cohen's kappa) once human reference scores are available
 
-### Medium-term
+---
 
-- **Fine-tuning on learner speech:** Collect a small dataset of human-transcribed learner recordings and fine-tune Whisper (or wav2vec2) to better handle non-native phonological patterns.
-- **Ensemble methods:** Run multiple ASR models and use majority voting or confidence weighting to improve accuracy.
-- **Prompt conditioning experiments:** Test whether providing the target sentence as Whisper's initial prompt improves or degrades transcription of learner errors.
+## Project Structure
 
-### Long-term
+```
+AutoEIT_test/
+├── src/
+│   ├── __init__.py
+│   ├── transcribe.py          # Whisper transcription (Test I)
+│   ├── postprocess.py         # Segment-to-target matching (Test I)
+│   ├── write_output.py        # Excel output (Test I)
+│   ├── score_rules.py         # Rule-based scoring (Test II)
+│   └── score_llm.py           # LLM-based scoring (Test II)
+├── data/
+│   ├── audio/                                          # MP3 files (not in repo)
+│   ├── AutoEIT_Sample_Audio_for_Transcribing.xlsx      # Test I template
+│   ├── AutoEIT_Sample_Transcriptions_for_Scoring.xlsx  # Test II template
+│   └── Spanish_EIT_Scoring_Rubric.docx                 # Scoring rubric
+├── output/
+│   ├── AutoEIT_Transcriptions_Complete.xlsx             # Test I results
+│   ├── AutoEIT_Scores_Complete.xlsx                     # Test II results
+│   └── scores_comparison.json                           # Rule vs. LLM comparison
+├── notebooks/
+│   └── explorations.py
+├── run_pipeline.py            # Test I entry point
+├── run_scoring.py             # Test II entry point (rule-based)
+├── run_scoring_llm.py         # Test II entry point (LLM)
+├── AutoEIT_Pipeline.ipynb     # Jupyter notebook (Test I)
+├── AutoEIT_Pipeline.pdf       # PDF of notebook with output
+├── requirements.txt
+└── README.md
+```
 
-- **Active learning pipeline:** Automatically route low-confidence items to human transcribers, then use their corrections to iteratively improve the model.
-- **Proficiency-adaptive processing:** Detect learner proficiency level early in the recording and adjust ASR parameters accordingly.
-
-## Technical Details
-
-### Dependencies
+## Dependencies
 
 ```
 openai-whisper
@@ -125,37 +189,10 @@ python-Levenshtein
 openpyxl
 pandas
 numpy
+openai
+python-dotenv
 ```
-
-### Usage
 
 ```bash
-# Install dependencies
 pip install -r requirements.txt
-
-# Run full pipeline
-python run_pipeline.py
-```
-
-Output is written to `output/AutoEIT_Transcriptions_Complete.xlsx`.
-
-### Project Structure
-
-```
-AutoEIT_test/
-├── data/
-│   ├── audio/                          # MP3 files (not in repo)
-│   └── AutoEIT_Sample_Audio_for_Transcribing.xlsx
-├── output/
-│   ├── AutoEIT_Transcriptions_Complete.xlsx
-│   └── *_raw.json, *_matched.json      # Intermediate results
-├── src/
-│   ├── transcribe.py                   # Whisper transcription
-│   ├── postprocess.py                  # Segment-to-target matching
-│   └── write_output.py                 # Excel output
-├── notebooks/
-│   └── exploration.py                  # Audio analysis utilities
-├── run_pipeline.py                     # Main entry point
-├── requirements.txt
-└── README.md
 ```
